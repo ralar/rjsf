@@ -191,6 +191,11 @@
             "goods": "Item.titanium-plate",
             "amount": 1,
             "algorithm": 0
+          },
+          {
+            "goods": "Fluid.acetylene",
+            "amount": 0,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -1666,7 +1671,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.ore-tin",
@@ -1742,31 +1747,6 @@
                   "goods": "Item.ore-lead",
                   "amount": 0,
                   "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.acetylene",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.calcium-carbide",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.lime",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.limestone",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.water@15",
-                  "amount": 0,
-                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -1774,65 +1754,6 @@
                   "recipe": "Mechanics.mining.basic-with-fluid.ore-lead",
                   "entity": "Entity.fluid-drill-mk01",
                   "fuel": "Item.raw-coal",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.acetylene",
-                  "entity": "Entity.gasifier",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ]
-                },
-                {
-                  "recipe": "Recipe.calcium-carbide",
-                  "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.lime",
-                  "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.extract-limestone-01",
-                  "entity": "Entity.soil-extractormk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ]
-                },
-                {
-                  "recipe": "Mechanics.pump.water.water",
-                  "entity": "Entity.stone-waterwell",
-                  "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -1899,30 +1820,10 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.ore-titanium",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.acetylene",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.calcium-carbide",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.lime",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.limestone",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -1938,20 +1839,45 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.acetylene",
+            "entity": "Entity.gasifier",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.calcium-carbide",
+                  "amount": 0,
+                  "algorithm": 0
                 },
                 {
-                  "recipe": "Recipe.acetylene",
-                  "entity": "Entity.gasifier",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ]
+                  "goods": "Item.lime",
+                  "amount": 0,
+                  "algorithm": 0
                 },
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
                 {
                   "recipe": "Recipe.calcium-carbide",
                   "entity": "Entity.hpf",
@@ -1986,11 +1912,24 @@
                   "variants": [
                     "Fluid.water@15"
                   ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.stone-waterwell",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
                 }
               ],
               "modules": null
             },
-            "variants": []
+            "variants": [
+              "Fluid.water@15"
+            ]
           }
         ],
         "modules": {
