@@ -218,7 +218,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.planter-box",
@@ -296,13 +296,13 @@
           {
             "recipe": "Recipe.small-parts-01",
             "entity": "Entity.assembling-machine-1",
-            "fuel": "Item.coke",
+            "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.iron-gear-wheel",
@@ -329,7 +329,7 @@
                 {
                   "recipe": "Recipe.iron-gear-wheel",
                   "entity": "Entity.assembling-machine-1",
-                  "fuel": "Item.coke",
+                  "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -340,7 +340,7 @@
                 {
                   "recipe": "Recipe.copper-cable",
                   "entity": "Entity.assembling-machine-1",
-                  "fuel": "Item.coke",
+                  "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -351,7 +351,7 @@
                 {
                   "recipe": "Recipe.bolts",
                   "entity": "Entity.assembling-machine-1",
-                  "fuel": "Item.coke",
+                  "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -362,7 +362,7 @@
                 {
                   "recipe": "Recipe.iron-stick",
                   "entity": "Entity.assembling-machine-1",
-                  "fuel": "Item.coke",
+                  "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -665,7 +665,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.fawogae-substrate",
@@ -1098,7 +1098,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.molten-glass",
@@ -1595,7 +1595,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.coal",
@@ -1746,7 +1746,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.ore-lead",
@@ -1825,7 +1825,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.ore-titanium",
