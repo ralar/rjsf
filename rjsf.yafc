@@ -133,11 +133,6 @@
             "algorithm": 0
           },
           {
-            "goods": "Fluid.syngas",
-            "amount": 0,
-            "algorithm": 1
-          },
-          {
             "goods": "Item.coke",
             "amount": 0,
             "algorithm": 0
@@ -189,11 +184,26 @@
           },
           {
             "goods": "Item.titanium-plate",
-            "amount": 1,
+            "amount": 0.8,
             "algorithm": 0
           },
           {
             "goods": "Fluid.acetylene",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.aluminium-plate",
+            "amount": 0.5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.coal-gas",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.syngas",
             "amount": 0,
             "algorithm": 0
           }
@@ -1591,11 +1601,6 @@
                   "goods": "Item.coal",
                   "amount": 0,
                   "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.coal-gas",
-                  "amount": 0,
-                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -1930,6 +1935,40 @@
             "variants": [
               "Fluid.water@15"
             ]
+          },
+          {
+            "recipe": "Recipe.aluminium-plate-1",
+            "entity": "Entity.stone-furnace",
+            "fuel": "Item.raw-coal",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.ore-aluminium",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-aluminium",
+                  "entity": "Entity.fluid-drill-mk01",
+                  "fuel": "Item.raw-coal",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
           }
         ],
         "modules": {
