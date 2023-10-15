@@ -384,7 +384,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.vacuum-tube",
@@ -717,7 +717,7 @@
                   "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -728,7 +728,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -766,7 +766,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": {
               "beacon": null,
               "list": [
@@ -845,7 +845,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": {
               "beacon": null,
               "list": [
@@ -956,7 +956,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.log",
@@ -1048,7 +1048,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": null,
             "variants": []
@@ -1062,7 +1062,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.clay",
@@ -1095,10 +1095,10 @@
             "fuel": "Fluid.syngas",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.molten-glass",
@@ -1113,7 +1113,7 @@
                   "fuel": "Fluid.syngas",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1124,7 +1124,7 @@
                   "fuel": "Fluid.syngas",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1135,7 +1135,7 @@
                   "fuel": "Fluid.syngas",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1592,10 +1592,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.coal",
@@ -1610,7 +1610,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1621,7 +1621,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1673,7 +1673,7 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -1743,10 +1743,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.ore-lead",
@@ -1777,7 +1777,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": null,
             "variants": []
@@ -1788,10 +1788,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.soot",
@@ -1822,10 +1822,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.ore-titanium",
@@ -1856,10 +1856,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.calcium-carbide",
@@ -1942,10 +1942,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.ore-aluminium",
@@ -2146,9 +2146,43 @@
           "beaconsPerBuilding": 8
         }
       }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "392c3ebe165247fe9ed870ed085278cb",
+      "icon": null,
+      "name": "Coke boilers",
+      "content": {
+        "expanded": true,
+        "links": [],
+        "recipes": [
+          {
+            "recipe": "Mechanics.boiler.boiler.steam",
+            "entity": "Entity.boiler",
+            "fuel": "Item.coke",
+            "fixedBuildings": 20,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
     }
   ],
   "displayPages": [
+    "392c3ebe165247fe9ed870ed085278cb",
     "7a33514ee2cc4cf5aaa32ad8f89e4f64",
     "25160249ebc445a6acdc9fd1a6d29abe"
   ]
