@@ -678,7 +678,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.fawogae-substrate",
@@ -2504,6 +2504,1244 @@
         "links": [
           {
             "goods": "Item.py-construction-robot-01",
+            "amount": 0.05,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.automated-factory-mk01",
+            "amount": 0.05,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.locomotive",
+            "amount": 0.05,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.gearbox-mk01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.rubber",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.shaft-mk01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.fish-oil",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.battery-mk01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.brake-mk01",
+            "amount": 0,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.automated-factory-mk01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.inserter",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.burner-inserter",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.inserter",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.burner-inserter",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.iron-gear-wheel",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.bolts",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.iron-stick",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.iron-gear-wheel",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.bolts",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.iron-stick",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.py-construction-robot-01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.steam-engine",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.pipe",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.solder",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.belt",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.steam-engine",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pipe",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.solder-0",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.iron-gear-wheel",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.bolts",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.iron-stick",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.iron-gear-wheel",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.bolts",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.iron-stick",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.belt",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.locomotive",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.pipe",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.steam-engine",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.pipe",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.steam-engine",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.iron-gear-wheel",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.bolts",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.iron-stick",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.iron-gear-wheel",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.bolts",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.iron-stick",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.gearbox-mk01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.shaft-mk01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.solder",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.solder-0",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.iron-gear-wheel",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.bolts",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.iron-stick",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.iron-gear-wheel",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.bolts",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.iron-stick",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.brake-mk01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-gear-wheel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.bolts",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-gear-wheel",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.bolts",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.battery-mk01",
+            "entity": "Entity.chemical-plant-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.cyanic-acid",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.bolts",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.urea-decomposition",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.bolts",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.rubber-01",
+            "entity": "Entity.heavy-oil-refinery-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.polybutadiene",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.carbon-black",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.vacuum",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex-slab",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sodium-alginate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.creamy-latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.polybutadiene",
+                  "entity": "Entity.cracker-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.carbon-black",
+                  "entity": "Entity.reformer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.vacuum",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.latex",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.latex-slab",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sodium-alginate",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.creamy-latex",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.extract-limestone-01",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.full-render-fish",
+            "entity": "Entity.slaughterhouse-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.fish",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fish-egg",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.phytoplankton",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water-saline",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-lamp",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.copper-cable",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.breed-fish-1",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-lamp",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.phytoplankton",
+                  "entity": "Entity.plankton-farm",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.breed-fish-egg-1",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.water-saline",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "b501ae29f19442ebb81804dead77b5af",
+      "icon": "Recipe.intermetallics",
+      "name": "Metals",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.intermetallics",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.melamine",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.copper-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.aluminium-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lead-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.tin-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.zinc-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.steel-plate",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.duralumin",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.pbsb-alloy",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.fenxsb-alloy",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.concrete",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.refined-concrete",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.nexelit-plate",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.nickel-plate",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.rubber",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.fish-oil",
             "amount": 1,
             "algorithm": 0
           }
@@ -2518,9 +3756,3217 @@
           "beaconsPerBuilding": 8
         }
       }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "fe0bb3c51c7c4f5f8b68fcb770f6da40",
+      "icon": "Recipe.intermetallics",
+      "name": "Metals",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.intermetallics",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.vitreloy",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.pbsb-alloy",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.fenxsb-alloy",
+            "amount": 4,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.battery-mk01",
+            "amount": 0.2,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.rubber",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.fish-oil",
+            "amount": 10,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.melamine",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.plastic-bar",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.duralumin",
+            "amount": 10,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.steel-plate",
+            "amount": 10,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.zinc-plate",
+            "amount": 2,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.titanium-plate",
+            "amount": 2,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.aluminium-plate",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.refined-concrete",
+            "amount": 0.5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.concrete",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.ceramic",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lead-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.tin-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.copper-plate",
+            "amount": 15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-plate",
+            "amount": 45,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.nexelit-plate",
+            "amount": 5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.sb-oxide",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.grade-1-tin",
+            "amount": 0,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.intermetallics",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.vitreloy",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.pbsb-alloy",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.fenxsb-alloy-2",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.battery-mk01",
+            "entity": "Entity.chemical-plant-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.bolts",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.cyanic-acid",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.bolts",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.urea-decomposition",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.rubber-01",
+            "entity": "Entity.heavy-oil-refinery-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.polybutadiene",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.carbon-black",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.vacuum",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex-slab",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sodium-alginate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.creamy-latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.polybutadiene",
+                  "entity": "Entity.cracker-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.carbon-black",
+                  "entity": "Entity.reformer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.latex",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.latex-slab",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sodium-alginate",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.creamy-latex",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.extract-limestone-01",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.vacuum",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.full-render-fish",
+            "entity": "Entity.slaughterhouse-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.fish",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fish-egg",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water-saline",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-lamp",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.phytoplankton",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.breed-fish-1",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.breed-fish-egg-1",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.water-saline",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.phytoplankton",
+                  "entity": "Entity.plankton-farm",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-lamp",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.melamine",
+            "entity": "Entity.fbreactor-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.cyanic-acid",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.ammonia",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.urea-decomposition",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.aromatics-to-plastic",
+            "entity": "Entity.biofactory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.duralumin-1",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.zinc-plate-2",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-2-zinc",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-zinc",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-zinc",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-2-zinc",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-1-zinc",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-zinc",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.titanium-plate-2",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-3-ti",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ti-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-ti",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-ti",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-titanium",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.ti-rejects-recrush",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-3-ti",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-2-ti-crush",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-1-ti",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-titanium",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.hotair-aluminium-plate-3",
+            "entity": "Entity.casting-unit-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.molten-aluminium",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.powdered-aluminium",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-aluminium",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molten-aluminium-01",
+                  "entity": "Entity.eaf-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.powdered-aluminium",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-aluminium",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.hotair-iron-plate-1",
+            "entity": "Entity.casting-unit-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.molten-iron",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.processed-iron-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molten-iron-05",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-1-iron-crush",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.tidal-placer-mk01",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-solid.iron-ore",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.refined-concrete",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.concrete",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.lime",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sand",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.gravel",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.gravel-to-sand",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.lime",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.extract-limestone-01",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.stone-to-gravel",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.ceramic",
+            "entity": "Entity.hpf",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.clay",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.clay",
+                  "entity": "Entity.clay-pit-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.lead-plate-2",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-1-lead",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-lead",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-1-lead",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-lead",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.tin-plate-2",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-1-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-2-crush-tin",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-1-tin",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-tin",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.copper-plate-4",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-2-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.copper-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-1-copper-crush",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-2-copper",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-solid.copper-ore",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.sb-oxide-01",
+            "entity": "Entity.bof-mk01",
+            "fuel": "Item.coal-dust",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.sb-grade-04",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-03",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-02",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.antimonium-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-oxide",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.iron-oxide-smelting",
+                  "entity": "Entity.advanced-foundry-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-04",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-03",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-02",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-01",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.antimonium.antimonium",
+                  "entity": "Entity.antimonium-drill-mk01",
+                  "fuel": "Item.heavy-oil-canister",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.tidal-placer-mk01",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "6016b7d2333e4b519a6ad4959ee7adab",
+      "icon": "Recipe.logistic-science-pack",
+      "name": "Logistic Science",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.logistic-science-pack",
+            "amount": 0.25,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.animal-sample-01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.plasmids",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lab-instrument",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lens",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.equipment-chassi",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.battery-mk01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.melamine",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.ammonia",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Fluid.cyanic-acid",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.bio-sample01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.solidified-sarcorus",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.moss",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.ralesia-seeds",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.rubber",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.seaweed",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.cottongut",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.urea",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.liquid-manure",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.manure",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.bones",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.fenxsb-alloy",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.pbsb-alloy",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.sb-oxide",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.plastic-bar",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.meat",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.skin",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.mukmoux-fat",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.guts",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.brain",
+            "amount": 0,
+            "algorithm": 1
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.logistic-science-pack",
+            "entity": "Entity.research-center-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.alien-sample01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ground-sample01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.rich-clay",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.soil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.alien-sample01",
+                  "entity": "Entity.assembling-machine-1",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.ground-sample01",
+                  "entity": "Entity.assembling-machine-1",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.rich-clay",
+                  "entity": "Entity.assembling-machine-1",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.soil",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.bio-sample01",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.bonemeal",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.bone-to-bonemeal-2",
+                  "entity": "Entity.fbreactor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.cottongut-science-red-seeds",
+            "entity": "Entity.incubator-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.fawogae-substrate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.depolymerized-organics",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.subcritical-water",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-water",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.fawogae-substrate",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.depolymerized-organics",
+                  "entity": "Entity.reformer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.subcritical-water-01",
+                  "entity": "Entity.py-heat-exchanger",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pressured-water",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.animal-sample-01",
+            "entity": "Entity.genlab-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.plasmids",
+            "entity": "Entity.biofactory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.zogna-bacteria",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-lamp",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.copper-cable",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-air",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.zogna-bacteria",
+                  "entity": "Entity.incubator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-lamp",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.copper-cable",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pressured-air",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.lab-instrument",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.small-parts-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.bolts",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-gear-wheel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.copper-cable",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.small-parts-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.bolts",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-gear-wheel",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.copper-cable",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.lens",
+            "entity": "Entity.glassworks-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.boron-trioxide",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.boric-acid",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.diborane",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.hydrogen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.boron-trioxide",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.boric-acid",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.diborane",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.equipment-chassi",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.battery-mk01",
+            "entity": "Entity.chemical-plant-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.bolts",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-stick",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.bolts",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.iron-stick",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.melamine",
+            "entity": "Entity.fbreactor-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.urea-decomposition",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.urea-from-liquid-manure",
+            "entity": "Entity.bio-reactor-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.zogna-bacteria",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.small-lamp",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.zogna-bacteria",
+                  "entity": "Entity.incubator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Fluid.pressured-air",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.pressured-air",
+                        "entity": "Entity.vacuum-pump-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.small-lamp",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.ralesia-seeds",
+            "entity": "Entity.botanical-nursery",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.ralesias",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.soil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.hydrogen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.ralesias-2",
+                  "entity": "Entity.ralesia-plantation-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.ralesias",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.soil",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.auog-pooping-1",
+            "entity": "Entity.auog-paddock-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.auog",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.water-barrel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.empty-barrel",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.liquid-manure",
+                  "entity": "Entity.bio-reactor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.fill-water-barrel",
+                  "entity": "Entity.barrel-machine-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.rubber-01",
+            "entity": "Entity.heavy-oil-refinery-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.polybutadiene",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.carbon-black",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.vacuum",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.latex-slab",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sodium-alginate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.creamy-latex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.carbon-black",
+                  "entity": "Entity.reformer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.polybutadiene",
+                  "entity": "Entity.cracker-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.latex",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.latex-slab",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sodium-alginate",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.creamy-latex",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.extract-limestone-01",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.vacuum",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.caged-cottongut-1",
+            "entity": "Entity.prandium-lab-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.cottongut-mk01",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.cottongut-pup",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.wood-seeds",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.water-barrel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.empty-barrel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.cottongut-cub-1",
+                  "entity": "Entity.rc-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.cottongut-mk01",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.full-render-cottongut",
+                  "entity": "Entity.slaughterhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.wood-seeds",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.fill-water-barrel",
+                  "entity": "Entity.barrel-machine-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.Moss 2",
+            "entity": "Entity.moss-farm-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.moss",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.dirty-water-light",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.soil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.muddy-sludge",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.soil",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.seaweed",
+            "entity": "Entity.seaweed-crop-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.seaweed",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.fenxsb-alloy-2",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.pbsb-alloy",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.heavy-oil",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.sb-oxide-01",
+            "entity": "Entity.bof-mk01",
+            "fuel": "Item.coal-dust",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-04",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-03",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-02",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sb-grade-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.antimonium-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.sb-grade-04",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-03",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-02",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sb-grade-01",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.antimonium.antimonium",
+                  "entity": "Entity.antimonium-drill-mk01",
+                  "fuel": "Item.heavy-oil-canister",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.aromatics-to-plastic",
+            "entity": "Entity.biofactory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
     }
   ],
   "displayPages": [
+    "6016b7d2333e4b519a6ad4959ee7adab",
+    "fe0bb3c51c7c4f5f8b68fcb770f6da40",
     "4993a0320e444541afdd939b39db1ece",
     "0c02f4a230364618b52cd5c2ee488dd0",
     "85a511d8a62049daa70bd0be12ff08a1",
