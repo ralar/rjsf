@@ -16,7 +16,9 @@
       "Item.space-science-pack"
     ],
     "itemFlags": {
-      "Item.automation-science-pack": 1
+      "Item.automation-science-pack": 1,
+      "Item.electronic-circuit": 1,
+      "Item.py-science-pack-1": 1
     },
     "miningProductivity": 0,
     "reactorSizeX": 2,
@@ -68,22 +70,12 @@
             "algorithm": 0
           },
           {
-            "goods": "Item.raw-fiber",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
             "goods": "Item.cellulose",
             "amount": 0,
             "algorithm": 0
           },
           {
             "goods": "Item.wood",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
-            "goods": "Fluid.carbon-dioxide",
             "amount": 0,
             "algorithm": 0
           },
@@ -129,11 +121,6 @@
           },
           {
             "goods": "Fluid.steam@250",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
-            "goods": "Item.coke",
             "amount": 0,
             "algorithm": 0
           },
@@ -206,6 +193,16 @@
             "goods": "Fluid.syngas",
             "amount": 0,
             "algorithm": 0
+          },
+          {
+            "goods": "Item.coke",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.carbon-dioxide",
+            "amount": 0,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -215,10 +212,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.planter-box",
@@ -299,10 +296,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.iron-gear-wheel",
@@ -381,10 +378,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.vacuum-tube",
@@ -439,10 +436,10 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Fluid.vacuum",
@@ -457,7 +454,18 @@
                         "fuel": "Power.electricity",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.graphite",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -476,7 +484,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Item.copper-cable",
@@ -491,7 +499,7 @@
                         "fuel": "Item.raw-coal",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -507,7 +515,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -518,7 +526,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -529,7 +537,7 @@
                   "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -540,7 +548,7 @@
                   "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -551,7 +559,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -559,23 +567,12 @@
                   ]
                 },
                 {
-                  "recipe": "Recipe.graphite",
-                  "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
                   "recipe": "Recipe.pcb1",
                   "entity": "Entity.pcb-factory-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": {
                     "expanded": false,
@@ -599,16 +596,43 @@
                         "goods": "Fluid.methanal",
                         "amount": 0,
                         "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.raw-fiber",
+                        "amount": 0,
+                        "algorithm": 0
                       }
                     ],
                     "recipes": [
+                      {
+                        "recipe": "Recipe.vacuum",
+                        "entity": "Entity.vacuum-pump-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
                       {
                         "recipe": "Recipe.formica",
                         "entity": "Entity.pulp-mill-mk01",
                         "fuel": "Power.electricity",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.fiber-01",
+                        "entity": "Entity.wpu",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -619,7 +643,7 @@
                         "fuel": "Power.electricity",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -630,18 +654,7 @@
                         "fuel": "Power.electricity",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
-                        "modules": null,
-                        "subgroup": null,
-                        "variants": []
-                      },
-                      {
-                        "recipe": "Recipe.vacuum",
-                        "entity": "Entity.vacuum-pump-mk01",
-                        "fuel": "Power.electricity",
-                        "fixedBuildings": 0,
-                        "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -746,7 +759,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": {
               "beacon": null,
               "list": [
@@ -885,23 +898,12 @@
             ]
           },
           {
-            "recipe": "Recipe.fiber-01",
-            "entity": "Entity.wpu",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": null,
-            "variants": []
-          },
-          {
             "recipe": "Recipe.cellulose-00",
             "entity": "Entity.hpf",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -953,10 +955,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.log",
@@ -1043,26 +1045,15 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.coke-co2",
+            "recipe": "Recipe.ceramic",
             "entity": "Entity.hpf",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
             "tag": 1,
             "modules": null,
-            "subgroup": null,
-            "variants": []
-          },
-          {
-            "recipe": "Recipe.ceramic",
-            "entity": "Entity.hpf",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.clay",
@@ -1151,10 +1142,10 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.latex",
@@ -1194,7 +1185,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1207,7 +1198,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1218,7 +1209,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1231,7 +1222,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1244,7 +1235,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1276,7 +1267,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.caged-vrauks",
@@ -1332,7 +1323,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": {
                     "beacon": null,
                     "list": [
@@ -1352,7 +1343,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": {
                     "beacon": null,
                     "list": [
@@ -1372,7 +1363,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -1385,7 +1376,7 @@
                   "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1401,7 +1392,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": {
               "beacon": null,
               "list": [
@@ -1413,7 +1404,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.moondrop-seeds",
@@ -1427,6 +1418,26 @@
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Recipe.moondrop-co2",
+                  "entity": "Entity.moondrop-greenhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.moondrop",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
                 {
                   "recipe": "Recipe.moondrop-seeds",
                   "entity": "Entity.botanical-nursery",
@@ -1473,7 +1484,7 @@
             "fuel": "Item.coke",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -1522,7 +1533,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -1541,6 +1552,21 @@
                   "goods": "Fluid.light-oil",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.middle-oil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.carbolic-oil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coke",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -1550,11 +1576,37 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
                     "Fluid.steam@250"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.tar-refining-tops",
+                  "entity": "Entity.tar-processing-unit",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 1,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@250"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.boiler.steam",
+                  "entity": "Entity.boiler",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 1,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
                   ]
                 },
                 {
@@ -1563,7 +1615,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1574,7 +1626,18 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.carbolic-oil-creosote",
+                  "entity": "Entity.tar-processing-unit",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -1639,7 +1702,7 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -2179,9 +2242,288 @@
           "beaconsPerBuilding": 8
         }
       }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "85a511d8a62049daa70bd0be12ff08a1",
+      "icon": null,
+      "name": "Con-Crete",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.concrete",
+            "amount": 1,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.refined-concrete",
+            "amount": 0.5,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.water@15",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-stick",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.steel-plate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lime",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.sand",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.gravel",
+            "amount": 0,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.refined-concrete",
+            "entity": "Entity.assembling-machine-1",
+            "fuel": "Item.coke",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.concrete",
+            "entity": "Entity.assembling-machine-1",
+            "fuel": "Item.coke",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Mechanics.pump.water.water",
+            "entity": "Entity.stone-waterwell",
+            "fuel": "Power.void",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.iron-stick",
+            "entity": "Entity.assembling-machine-1",
+            "fuel": "Item.coke",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.steel-plate",
+            "entity": "Entity.advanced-foundry-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.lime",
+            "entity": "Entity.hpf",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.gravel-to-sand",
+            "entity": "Entity.jaw-crusher",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.stone-to-gravel",
+            "entity": "Entity.jaw-crusher",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "0c02f4a230364618b52cd5c2ee488dd0",
+      "icon": "Technology.geothermal-power-mk01",
+      "name": "Geothermal",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Fluid.steam@500",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.geothermal-water",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.pressured-water",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.water@15",
+            "amount": 0,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Mechanics.generator.electricity",
+            "entity": "Entity.steam-engine",
+            "fuel": "Fluid.steam@500",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.geo-he-00",
+            "entity": "Entity.rhe",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Mechanics.mining.geothermal-crack.geothermal-crack",
+            "entity": "Entity.geothermal-plant-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 1,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.pressured-water",
+            "entity": "Entity.vacuum-pump-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Mechanics.pump.water.water",
+            "entity": "Entity.stone-waterwell",
+            "fuel": "Power.void",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "4993a0320e444541afdd939b39db1ece",
+      "icon": "Recipe.py-construction-robot-01",
+      "name": "C-Bots",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.py-construction-robot-01",
+            "amount": 1,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
     }
   ],
   "displayPages": [
+    "4993a0320e444541afdd939b39db1ece",
+    "0c02f4a230364618b52cd5c2ee488dd0",
+    "85a511d8a62049daa70bd0be12ff08a1",
     "392c3ebe165247fe9ed870ed085278cb",
     "7a33514ee2cc4cf5aaa32ad8f89e4f64",
     "25160249ebc445a6acdc9fd1a6d29abe"
