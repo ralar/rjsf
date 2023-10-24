@@ -9371,10 +9371,10 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.zogna-bacteria",
@@ -9409,7 +9409,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -9420,7 +9420,7 @@
                   "fuel": "Item.wood",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": {
                     "expanded": false,
@@ -9502,7 +9502,7 @@
                   "fuel": "Item.wood",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -9513,7 +9513,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": {
                     "expanded": false,
@@ -9547,7 +9547,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": {
                     "expanded": false,
@@ -9822,7 +9822,7 @@
             "fuel": "Item.raw-coal",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": null,
             "variants": []
@@ -9833,7 +9833,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -9885,7 +9885,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": {
               "expanded": false,
@@ -9903,7 +9903,7 @@
                   "fuel": "Item.raw-coal",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -9914,7 +9914,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -10317,7 +10317,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -10694,7 +10694,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": {
               "beacon": null,
               "list": [
@@ -10706,7 +10706,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.moondrop-seeds",
@@ -10726,7 +10726,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": {
                     "beacon": null,
                     "list": [
@@ -10748,7 +10748,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -10759,7 +10759,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": {
                     "beacon": null,
                     "list": [
@@ -10809,7 +10809,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.dirty-water-light",
@@ -11160,7 +11160,7 @@
                   "fuel": "Item.wood",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": []
@@ -11171,7 +11171,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -11184,7 +11184,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": {
                     "beacon": null,
                     "list": [
@@ -11211,7 +11211,7 @@
                         "fuel": "Power.electricity",
                         "fixedBuildings": 0,
                         "enabled": true,
-                        "tag": 0,
+                        "tag": 1,
                         "modules": null,
                         "subgroup": null,
                         "variants": []
@@ -11890,7 +11890,7 @@
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
-            "tag": 0,
+            "tag": 1,
             "modules": null,
             "subgroup": null,
             "variants": []
