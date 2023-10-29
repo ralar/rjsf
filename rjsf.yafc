@@ -30,12 +30,14 @@
     "itemUnit": 0,
     "fluidUnit": 0,
     "defaultBelt": "Entity.transport-belt",
-    "defaultInserter": "Entity.burner-inserter",
+    "defaultInserter": "Entity.inserter",
     "inserterCapacity": 1,
-    "sourceResources": []
+    "sourceResources": [],
+    "favourites": [],
+    "targetTechnology": null
   },
   "sharedModuleTemplates": [],
-  "yafcVersion": "0.5.8.0",
+  "yafcVersion": "0.6.0.0",
   "pages": [
     {
       "contentType": "YAFC.Model.ProductionTable",
@@ -11474,7 +11476,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.tar",
@@ -14533,11 +14535,6 @@
             "algorithm": 0
           },
           {
-            "goods": "Item.coke",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
             "goods": "Item.korlex-food-01",
             "amount": 0,
             "algorithm": 0
@@ -14588,11 +14585,6 @@
             "algorithm": 0
           },
           {
-            "goods": "Item.workers-food",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
             "goods": "Item.fiberboard",
             "amount": 0,
             "algorithm": 0
@@ -14609,11 +14601,6 @@
           },
           {
             "goods": "Item.ralesia-seeds",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
-            "goods": "Fluid.hot-air",
             "amount": 0,
             "algorithm": 0
           },
@@ -14730,7 +14717,7 @@
           {
             "goods": "Item.cellulose",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Item.bonemeal",
@@ -14865,7 +14852,7 @@
           {
             "goods": "Fluid.anthracene-oil",
             "amount": 0,
-            "algorithm": 1
+            "algorithm": 0
           },
           {
             "goods": "Fluid.aromatics",
@@ -14878,24 +14865,19 @@
             "algorithm": 0
           },
           {
-            "goods": "Fluid.syngas",
+            "goods": "Fluid.kerosene",
             "amount": 0,
             "algorithm": 0
           },
           {
-            "goods": "Fluid.kerosene",
-            "amount": 0,
-            "algorithm": 1
-          },
-          {
             "goods": "Fluid.diesel",
             "amount": 0,
-            "algorithm": 1
+            "algorithm": 0
           },
           {
             "goods": "Fluid.gasoline",
             "amount": 0,
-            "algorithm": 1
+            "algorithm": 0
           },
           {
             "goods": "Fluid.acetylene",
@@ -14931,11 +14913,6 @@
             "goods": "Item.ticl4",
             "amount": 0,
             "algorithm": 0
-          },
-          {
-            "goods": "Item.coal-dust",
-            "amount": 0,
-            "algorithm": 1
           },
           {
             "goods": "Fluid.chlorine",
@@ -14975,7 +14952,142 @@
           {
             "goods": "Fluid.benzene",
             "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.workers-food",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.natural-gas",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.dirty-water-heavy",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.hydrogen",
+            "amount": 0,
             "algorithm": 1
+          },
+          {
+            "goods": "Fluid.carbon-dioxide",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.tar",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.acidgas",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.empty-fuel-canister",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.mukmoux-fat",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.oleochemicals",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Fluid.glycerol",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.nitrogen",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.filtration-media",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.gravel",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Item.fertilizer",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.blood",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.auog",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.bones",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.hydrogen-chloride",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.coke",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.coal-dust",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.active-carbon",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.hot-air",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.coke-oven-gas@500",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.syngas",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.steam@250",
+            "amount": 0,
+            "algorithm": 1
+          },
+          {
+            "goods": "Fluid.refined-natural-gas",
+            "amount": 0,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -16522,7 +16634,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [],
                     "recipes": [
                       {
@@ -16583,7 +16695,7 @@
                       {
                         "recipe": "Recipe.fenxsb-alloy-2",
                         "entity": "Entity.smelter-mk01",
-                        "fuel": "Fluid.gasoline",
+                        "fuel": "Fluid.benzene",
                         "fixedBuildings": 0,
                         "enabled": true,
                         "tag": 0,
@@ -16774,6 +16886,186 @@
             "variants": []
           },
           {
+            "recipe": "Recipe.reo",
+            "entity": "Entity.solid-separator",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.ree-concentrate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.ree-solution",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.ree-slurry",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.rare-earth-mud",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.rare-earth-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.rare-earth-powder",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.uranium-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.sulfuric-acid",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.ammonia",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.ree-concentrate1",
+                  "entity": "Entity.evaporator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.ree-solution",
+                  "entity": "Entity.fluid-separator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.ree-slurry",
+                  "entity": "Entity.thickener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.ree-float",
+                  "entity": "Entity.agitator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.milling-ree",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.crusher-ree",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.uranium-ore-pyvoid",
+                  "entity": "Entity.py-burner",
+                  "fuel": "Item.wood",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sulfuric-acid-01",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.ammonia-urea",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
             "recipe": "Recipe.chromium-01",
             "entity": "Entity.casting-unit-mk01",
             "fuel": "Power.electricity",
@@ -16924,17 +17216,6 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.ticl4",
-            "entity": "Entity.hpf",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": null,
-            "variants": []
-          },
-          {
             "recipe": "Recipe.plastic-from-casein",
             "entity": "Entity.chemical-plant-mk01",
             "fuel": "Power.electricity",
@@ -16966,6 +17247,17 @@
               ],
               "modules": null
             },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.ticl4",
+            "entity": "Entity.hpf",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
             "variants": []
           },
           {
@@ -17109,6 +17401,17 @@
                 },
                 {
                   "recipe": "Recipe.nexelit-from-workers-food-digosaurus",
+                  "entity": "Entity.dino-dig-site",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.nexelit-from-meat-digosaurus",
                   "entity": "Entity.dino-dig-site",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
@@ -18285,6 +18588,67 @@
             "variants": []
           },
           {
+            "recipe": "Recipe.filtration-media",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.zinc-chloride",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.sodium-hydroxide",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.active-carbon",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.chlorine",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.zinc-chloride",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
             "recipe": "Recipe.sap-01",
             "entity": "Entity.sap-extractor-mk01",
             "fuel": "Power.electricity",
@@ -18756,6 +19120,11 @@
                   "goods": "Item.sodium-hydroxide",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.black-liquor",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -18763,6 +19132,17 @@
                   "recipe": "Recipe.chlorine",
                   "entity": "Entity.electrolyzer-mk01",
                   "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.black-liquor-pyvoid-fluid",
+                  "entity": "Entity.py-sinkhole",
+                  "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -19011,6 +19391,26 @@
               ],
               "recipes": [
                 {
+                  "recipe": "Recipe.moondrop-co2",
+                  "entity": "Entity.moondrop-greenhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.moondrop-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
                   "recipe": "Recipe.moondrop-seeds",
                   "entity": "Entity.botanical-nursery",
                   "fuel": "Power.electricity",
@@ -19188,6 +19588,11 @@
                 },
                 {
                   "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.barrel-milk",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -19455,6 +19860,11 @@
                   "goods": "Item.cage",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Item.caged-auog",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -19503,6 +19913,17 @@
                   "variants": []
                 },
                 {
+                  "recipe": "Recipe.full-render-auogs",
+                  "entity": "Entity.slaughterhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
                   "recipe": "Recipe.caged-vrauks",
                   "entity": "Entity.automated-factory-mk01",
                   "fuel": "Power.electricity",
@@ -19516,6 +19937,89 @@
                 {
                   "recipe": "Recipe.caged-ulric",
                   "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.caged-auog",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.biomass-guts",
+            "entity": "Entity.compost-plant-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [],
+              "recipes": [
+                {
+                  "recipe": "Recipe.biomass-chitin",
+                  "entity": "Entity.compost-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.biomass-meat",
+                  "entity": "Entity.compost-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.biomass-glycerol",
+                  "entity": "Entity.compost-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.biomass-bones",
+                  "entity": "Entity.compost-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.biomass-brain",
+                  "entity": "Entity.compost-plant-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -19702,44 +20206,6 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.zipir-a-2",
-            "entity": "Entity.zipir-reef-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": true,
-              "links": [
-                {
-                  "goods": "Item.stone-wool",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.stone-wool",
-                  "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.steam@150"
-                  ]
-                }
-              ],
-              "modules": null
-            },
-            "variants": [
-              "Fluid.water@15"
-            ]
-          },
-          {
             "recipe": "Recipe.zipir-eggs-1",
             "entity": "Entity.rc-mk01",
             "fuel": "Power.electricity",
@@ -19757,7 +20223,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.pressured-water",
@@ -19778,32 +20244,35 @@
                   "goods": "Item.fawogae-substrate",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Item.petri-dish-bacteria",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
                 {
-                  "recipe": "Recipe.pressured-water",
-                  "entity": "Entity.vacuum-pump-mk01",
+                  "recipe": "Recipe.zipir-a-2",
+                  "entity": "Entity.zipir-reef-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
-                  "modules": null,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.zipir1",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
                   "subgroup": null,
                   "variants": [
                     "Fluid.water@15"
                   ]
-                },
-                {
-                  "recipe": "Mechanics.pump.water.water",
-                  "entity": "Entity.tidal-placer-mk01",
-                  "fuel": "Power.void",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
                 },
                 {
                   "recipe": "Recipe.stone-wool",
@@ -19822,6 +20291,41 @@
                   "recipe": "Recipe.fawogae-substrate",
                   "entity": "Entity.automated-factory-mk01",
                   "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.petri-dish-bacteria",
+                  "entity": "Entity.micro-mine-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pressured-water",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -19954,6 +20458,11 @@
                 },
                 {
                   "goods": "Item.cage",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.tailings-dust",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -20142,7 +20651,7 @@
                 {
                   "recipe": "Recipe.used-comb-pyvoid",
                   "entity": "Entity.py-burner",
-                  "fuel": "Item.coal",
+                  "fuel": "Item.wood",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -20186,6 +20695,17 @@
                 {
                   "recipe": "Recipe.caged-vrauks",
                   "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.tailings-dust",
+                  "entity": "Entity.evaporator",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -20462,9 +20982,34 @@
                   "goods": "Item.empty-barrel",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Item.auog-pup",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Recipe.auog-maturing-2",
+                  "entity": "Entity.auog-paddock-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.auog",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
                 {
                   "recipe": "Recipe.fill-water-barrel",
                   "entity": "Entity.barrel-machine-mk01",
@@ -20486,6 +21031,26 @@
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.auog-pup-breeding-2",
+                  "entity": "Entity.rc-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.auog",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
                   "subgroup": null,
                   "variants": []
                 }
@@ -20555,6 +21120,17 @@
               ],
               "modules": null
             },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.fertilizer-3",
+            "entity": "Entity.fbreactor-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
             "variants": []
           },
           {
@@ -20778,6 +21354,42 @@
             "variants": []
           },
           {
+            "recipe": "Recipe.oleochemicals",
+            "entity": "Entity.fts-reactor",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
             "recipe": "Recipe.alien-sample-02",
             "entity": "Entity.genlab-mk01",
             "fuel": "Power.electricity",
@@ -20835,6 +21447,16 @@
                 },
                 {
                   "goods": "Item.cytostatics",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.liquid-nitrogen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -21291,6 +21913,30 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
+                },
+                {
+                  "recipe": "Recipe.liquid-nitrogen",
+                  "entity": "Entity.compressor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
                 }
               ],
               "modules": null
@@ -21350,7 +21996,7 @@
           {
             "recipe": "Recipe.hotair-molten-glass",
             "entity": "Entity.glassworks-mk01",
-            "fuel": "Fluid.kerosene",
+            "fuel": "Fluid.diesel",
             "fixedBuildings": 0,
             "enabled": true,
             "tag": 0,
@@ -21383,7 +22029,7 @@
                 {
                   "recipe": "Recipe.hotair-empty-petri-dish",
                   "entity": "Entity.glassworks-mk01",
-                  "fuel": "Fluid.kerosene",
+                  "fuel": "Fluid.diesel",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -21394,7 +22040,7 @@
                 {
                   "recipe": "Recipe.hotair-lens",
                   "entity": "Entity.glassworks-mk01",
-                  "fuel": "Fluid.kerosene",
+                  "fuel": "Fluid.diesel",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -21581,6 +22227,17 @@
                   "variants": [
                     "Fluid.water@15"
                   ]
+                },
+                {
+                  "recipe": "Recipe.gravel-to-sand",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
                 },
                 {
                   "recipe": "Recipe.soil-washing",
@@ -21971,7 +22628,22 @@
                   "algorithm": 0
                 },
                 {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.flue-gas",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
                   "goods": "Fluid.coke-oven-gas@250",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.coke-oven-gas@100",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -22002,6 +22674,19 @@
                   ]
                 },
                 {
+                  "recipe": "Recipe.reheat-coke-gas",
+                  "entity": "Entity.py-heat-exchanger",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.hot-molten-salt@1000"
+                  ]
+                },
+                {
                   "recipe": "Recipe.pressured-air",
                   "entity": "Entity.vacuum-pump-mk01",
                   "fuel": "Power.electricity",
@@ -22011,58 +22696,24 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
-                }
-              ],
-              "modules": null
-            },
-            "variants": []
-          },
-          {
-            "recipe": "Recipe.reo",
-            "entity": "Entity.solid-separator",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.ree-concentrate",
-                  "amount": 0,
-                  "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.ree-solution",
-                  "amount": 0,
-                  "algorithm": 0
+                  "recipe": "Recipe.quench-ovengas",
+                  "entity": "Entity.quenching-tower",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15",
+                    "Fluid.coke-oven-gas@100"
+                  ]
                 },
                 {
-                  "goods": "Fluid.ree-slurry",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.rare-earth-mud",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.rare-earth-dust",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.rare-earth-powder",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.ree-concentrate1",
-                  "entity": "Entity.evaporator",
+                  "recipe": "Recipe.fluegas-to-syngas",
+                  "entity": "Entity.carbon-filter",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -22072,53 +22723,9 @@
                   "variants": []
                 },
                 {
-                  "recipe": "Recipe.ree-solution",
-                  "entity": "Entity.fluid-separator",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.ree-slurry",
-                  "entity": "Entity.thickener-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.ree-float",
-                  "entity": "Entity.agitator-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.milling-ree",
-                  "entity": "Entity.ball-mill-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.crusher-ree",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -22536,6 +23143,11 @@
                   "goods": "Item.empty-gas-canister",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -22560,6 +23172,19 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
+                },
+                {
+                  "recipe": "Recipe.water-pyvoid-fluid",
+                  "entity": "Entity.py-sinkhole",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
                 }
               ],
               "modules": null
@@ -22734,7 +23359,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.scrude",
@@ -22753,11 +23378,6 @@
                 },
                 {
                   "goods": "Fluid.naphtha",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.water@15",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -22787,11 +23407,6 @@
                   "subgroup": {
                     "expanded": false,
                     "links": [
-                      {
-                        "goods": "Fluid.tar",
-                        "amount": 0,
-                        "algorithm": 0
-                      },
                       {
                         "goods": "Fluid.middle-oil",
                         "amount": 0,
@@ -22879,7 +23494,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Fluid.crude-oil",
@@ -22928,6 +23543,11 @@
                       },
                       {
                         "goods": "Fluid.vacuum",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.water@15",
                         "amount": 0,
                         "algorithm": 0
                       }
@@ -23077,7 +23697,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Item.oil-sand",
@@ -23106,6 +23726,11 @@
                       },
                       {
                         "goods": "Fluid.bitumen",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.water@15",
                         "amount": 0,
                         "algorithm": 0
                       }
@@ -23303,6 +23928,103 @@
                         "modules": null,
                         "subgroup": null,
                         "variants": []
+                      },
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.tidal-placer-mk01",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.natural-gas.natural-gas-mk01",
+                  "entity": "Entity.natural-gas-seep-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Fluid.raw-gas",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.natural-gas-refining",
+                        "entity": "Entity.compressor-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.coal-slurry",
+                  "entity": "Entity.centrifuge-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.coal-slurry",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.water-pyvoid-fluid",
+                        "entity": "Entity.py-sinkhole",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      },
+                      {
+                        "recipe": "Recipe.coal-slurry-fuel",
+                        "entity": "Entity.distilator",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
                       }
                     ],
                     "modules": null
@@ -23318,7 +24040,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Fluid.btx",
@@ -23381,6 +24103,17 @@
                   "variants": []
                 },
                 {
+                  "recipe": "Recipe.aromatics-to-petgas",
+                  "entity": "Entity.reformer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": false,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
                   "recipe": "Recipe.aromatics-2-diesel",
                   "entity": "Entity.lor-mk01",
                   "fuel": "Power.electricity",
@@ -23410,6 +24143,34 @@
             ]
           },
           {
+            "recipe": "Recipe.hcl-from-guts",
+            "entity": "Entity.bio-reactor-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [],
+              "recipes": [
+                {
+                  "recipe": "Recipe.hydrogen-chloride",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
             "recipe": "Recipe.hydrogen",
             "entity": "Entity.electrolyzer-mk01",
             "fuel": "Power.electricity",
@@ -23424,13 +24185,56 @@
                   "goods": "Fluid.water@15",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-air",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.purest-nitrogen-gas",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
                 {
+                  "recipe": "Recipe.nitrogen",
+                  "entity": "Entity.carbon-filter",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.purest-nitrogen-gas",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
                   "recipe": "Mechanics.pump.water.water",
                   "entity": "Entity.tidal-placer-mk01",
                   "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pressured-air",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -23482,43 +24286,131 @@
             ]
           },
           {
-            "recipe": "Recipe.biomass-guts",
-            "entity": "Entity.compost-plant-mk01",
-            "fuel": "Power.electricity",
+            "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+            "entity": "Entity.oil-boiler-mk01",
+            "fuel": "Fluid.syngas",
             "fixedBuildings": 0,
             "enabled": true,
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
-              "links": [],
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
               "recipes": [
                 {
-                  "recipe": "Recipe.biomass-chitin",
-                  "entity": "Entity.compost-plant-mk01",
-                  "fuel": "Power.electricity",
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.refined-natural-gas",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
                   "subgroup": null,
-                  "variants": []
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
                 },
                 {
-                  "recipe": "Recipe.biomass-meat",
-                  "entity": "Entity.compost-plant-mk01",
-                  "fuel": "Power.electricity",
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.kerosene",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
                   "subgroup": null,
-                  "variants": []
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
                 },
                 {
-                  "recipe": "Recipe.biomass-brain",
-                  "entity": "Entity.compost-plant-mk01",
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.gasoline",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.benzene",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.boiler.steam",
+                  "entity": "Entity.boiler",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.diesel",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.oil-boiler-mk01.steam",
+                  "entity": "Entity.oil-boiler-mk01",
+                  "fuel": "Fluid.anthracene-oil",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.electric-boiler.steam",
+                  "entity": "Entity.electric-boiler",
                   "fuel": "Power.electricity",
+                  "fixedBuildings": 50,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -23529,6 +24421,45 @@
               ],
               "modules": null
             },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "1f40682150534f5fa4d3f17dbfc5d239",
+      "icon": "Power.electricity",
+      "name": "Powah ",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Power.electricity",
+            "amount": 1,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Mechanics.generator.electricity",
+            "entity": "Entity.steam-turbine-mk01",
+            "fuel": "Fluid.pressured-steam@1000",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
             "variants": []
           }
         ],
@@ -23544,6 +24475,7 @@
     }
   ],
   "displayPages": [
+    "1f40682150534f5fa4d3f17dbfc5d239",
     "d7e79434ae454960a2a357dd4225ea44",
     "7c21cd88c6ca49b5813735cc3227a446",
     "21d288d9a589455a81c0cf99f4c5d689",
