@@ -14867,7 +14867,7 @@
           {
             "goods": "Fluid.kerosene",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Fluid.diesel",
@@ -15052,7 +15052,7 @@
           {
             "goods": "Item.coke",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Item.coal-dust",
@@ -15080,14 +15080,24 @@
             "algorithm": 0
           },
           {
-            "goods": "Fluid.steam@250",
-            "amount": 0,
-            "algorithm": 1
-          },
-          {
             "goods": "Fluid.refined-natural-gas",
             "amount": 0,
             "algorithm": 0
+          },
+          {
+            "goods": "Item.sodium-hydroxide",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.coarse-coal",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.steam@250",
+            "amount": 0,
+            "algorithm": 1
           }
         ],
         "recipes": [
@@ -17435,7 +17445,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.unslimed-iron",
@@ -18602,28 +18612,12 @@
                   "goods": "Item.zinc-chloride",
                   "amount": 0,
                   "algorithm": 0
-                },
-                {
-                  "goods": "Item.sodium-hydroxide",
-                  "amount": 0,
-                  "algorithm": 0
                 }
               ],
               "recipes": [
                 {
                   "recipe": "Recipe.active-carbon",
                   "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.chlorine",
-                  "entity": "Entity.electrolyzer-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -19117,28 +19111,12 @@
               "expanded": false,
               "links": [
                 {
-                  "goods": "Item.sodium-hydroxide",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
                   "goods": "Fluid.black-liquor",
                   "amount": 0,
                   "algorithm": 0
                 }
               ],
               "recipes": [
-                {
-                  "recipe": "Recipe.chlorine",
-                  "entity": "Entity.electrolyzer-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
                 {
                   "recipe": "Recipe.black-liquor-pyvoid-fluid",
                   "entity": "Entity.py-sinkhole",
@@ -19811,26 +19789,8 @@
             "modules": null,
             "subgroup": {
               "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.sodium-hydroxide",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.chlorine",
-                  "entity": "Entity.electrolyzer-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                }
-              ],
+              "links": [],
+              "recipes": [],
               "modules": null
             },
             "variants": []
@@ -21958,28 +21918,12 @@
                   "goods": "Item.fiber",
                   "amount": 0,
                   "algorithm": 0
-                },
-                {
-                  "goods": "Item.sodium-hydroxide",
-                  "amount": 0,
-                  "algorithm": 0
                 }
               ],
               "recipes": [
                 {
                   "recipe": "Recipe.fiber",
                   "entity": "Entity.centrifuge-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.chlorine",
-                  "entity": "Entity.electrolyzer-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -22476,15 +22420,10 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.coal",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.coarse-coal",
                   "amount": 0,
                   "algorithm": 0
                 },
@@ -22535,9 +22474,35 @@
                 {
                   "recipe": "Recipe.redhot-coke",
                   "entity": "Entity.bof-mk01",
-                  "fuel": "Item.coke",
+                  "fuel": "Item.coal",
                   "fixedBuildings": 0,
                   "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.redhot-coke",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coarse-coal",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.redhot-coke",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "enabled": false,
                   "tag": 0,
                   "modules": null,
                   "subgroup": null,
@@ -24143,34 +24108,6 @@
             ]
           },
           {
-            "recipe": "Recipe.hcl-from-guts",
-            "entity": "Entity.bio-reactor-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [],
-              "recipes": [
-                {
-                  "recipe": "Recipe.hydrogen-chloride",
-                  "entity": "Entity.chemical-plant-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                }
-              ],
-              "modules": null
-            },
-            "variants": []
-          },
-          {
             "recipe": "Recipe.hydrogen",
             "entity": "Entity.electrolyzer-mk01",
             "fuel": "Power.electricity",
@@ -24179,7 +24116,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -24198,6 +24135,45 @@
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Recipe.hcl-from-guts",
+                  "entity": "Entity.bio-reactor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.hydrogen-chloride",
+                        "entity": "Entity.chemical-plant-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.chlorine",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
                 {
                   "recipe": "Recipe.nitrogen",
                   "entity": "Entity.carbon-filter",
@@ -24294,7 +24270,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -24398,7 +24374,7 @@
                   "recipe": "Mechanics.boiler.electric-boiler.steam",
                   "entity": "Entity.electric-boiler",
                   "fuel": "Power.electricity",
-                  "fixedBuildings": 50,
+                  "fixedBuildings": 80,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
@@ -24446,7 +24422,27 @@
         "links": [
           {
             "goods": "Power.electricity",
-            "amount": 1,
+            "amount": 25000,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.pressured-steam@1000",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.pressured-water",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.water@15",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.hot-molten-salt@1000",
+            "amount": 0,
             "algorithm": 0
           }
         ],
@@ -24459,7 +24455,657 @@
             "enabled": true,
             "tag": 0,
             "modules": null,
-            "subgroup": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [],
+              "recipes": [
+                {
+                  "recipe": "Recipe.he-01",
+                  "entity": "Entity.py-heat-exchanger",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.hot-molten-salt@1000"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.pressured-water",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.coal-molten-salt-01",
+            "entity": "Entity.py-coal-powerplant-mk01",
+            "fuel": "Item.coke",
+            "fixedBuildings": 0,
+            "enabled": false,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.coke",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-air",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.redhot-coke",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coarse-coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.crushed-coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.raw-coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coal-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.flue-gas",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.coal-molten-salt-01",
+                  "entity": "Entity.py-coal-powerplant-mk01",
+                  "fuel": "Item.coarse-coal",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.coal-molten-salt-01",
+                  "entity": "Entity.py-coal-powerplant-mk01",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.quench-redcoke",
+                  "entity": "Entity.quenching-tower",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.pressured-air",
+                  "entity": "Entity.vacuum-pump-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.redhot-coke",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coal-dust",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.coarse-coal",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.crushed-coal",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.flue-gas-2",
+                  "entity": "Entity.gas-refinery-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-solid.raw-coal",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.gas-molten-salt-01",
+            "entity": "Entity.py-gas-powerplant-mk01",
+            "fuel": "Fluid.natural-gas",
+            "fixedBuildings": 0,
+            "enabled": false,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Fluid.natural-gas",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.raw-gas",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.natural-gas-refining",
+                  "entity": "Entity.compressor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.mining.natural-gas.natural-gas-mk01",
+                  "entity": "Entity.natural-gas-seep-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.oil-molten-salt-01",
+            "entity": "Entity.py-oil-powerplant-mk01",
+            "fuel": "Fluid.kerosene",
+            "fixedBuildings": 0,
+            "enabled": false,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Fluid.kerosene",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.heavy-oil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.low-distillate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.crude-oil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.residual-oil",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.residual-mixture",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.hot-residual-mixture",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.medium-distillate",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.heavy-oil-to-kerosene",
+                  "entity": "Entity.olefin-plant",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.low-distillate-to-heavy-oil",
+                  "entity": "Entity.compressor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.oil-breakdown-2",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.coke-oven-gas@100"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.mining.oil-mk01.oil-mk01",
+                  "entity": "Entity.bitumen-seep-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.residual-mixture",
+                  "entity": "Entity.mixer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.residual-mixture-distillation",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hot-residual-mixture-to-coke",
+                  "entity": "Entity.upgrader-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15",
+                    "Fluid.steam@150"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.medium-distillate-to-stripped-distillate",
+                  "entity": "Entity.lor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.biomass-molten-salt-01",
+            "entity": "Entity.py-biomass-powerplant-mk01",
+            "fuel": "Item.dried-biomass",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.dried-biomass",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fine-powdered-biomass",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.powdered-biomass",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.biomass",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.kicalk",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.dried-biomass",
+                  "entity": "Entity.evaporator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.fine-powdered-biomass",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.powedered-biomass",
+                  "entity": "Entity.pulp-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.biomass-kicalk",
+                  "entity": "Entity.compost-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.kicalk-2",
+                  "entity": "Entity.kicalk-plantation-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.kicalk",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.kicalk-seeds",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.clay",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.sand",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.soil",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.small-lamp",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.steam@250",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.kicalk-seeds",
+                        "entity": "Entity.botanical-nursery",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.clay",
+                        "entity": "Entity.clay-pit-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.steam@250"
+                        ]
+                      },
+                      {
+                        "recipe": "Recipe.soil-washing",
+                        "entity": "Entity.washer",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      },
+                      {
+                        "recipe": "Recipe.soil",
+                        "entity": "Entity.soil-extractormk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      },
+                      {
+                        "recipe": "Recipe.small-lamp",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Mechanics.boiler.electric-boiler.steam",
+                        "entity": "Entity.electric-boiler",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      },
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                }
+              ],
+              "modules": null
+            },
             "variants": []
           }
         ],
