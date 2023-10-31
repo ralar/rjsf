@@ -17445,7 +17445,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.unslimed-iron",
@@ -22712,10 +22712,10 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
-                  "goods": "Item.kerosene-canister",
+                  "goods": "Item.diesel-canister",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -22814,7 +22814,7 @@
                 {
                   "recipe": "Mechanics.mining.antimonium.antimonium",
                   "entity": "Entity.antimonium-drill-mk01",
-                  "fuel": "Item.kerosene-canister",
+                  "fuel": "Item.diesel-canister",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -22836,7 +22836,7 @@
                 {
                   "recipe": "Mechanics.mining.salt-rock.salt-rock",
                   "entity": "Entity.salt-mine",
-                  "fuel": "Item.kerosene-canister",
+                  "fuel": "Item.diesel-canister",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
@@ -22952,7 +22952,7 @@
                   ]
                 },
                 {
-                  "recipe": "Recipe.fill-kerosene-canister",
+                  "recipe": "Recipe.fill-diesel-canister",
                   "entity": "Entity.barrel-machine-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
@@ -23324,7 +23324,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.scrude",
@@ -23459,7 +23459,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Fluid.crude-oil",
@@ -23662,7 +23662,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Item.oil-sand",
@@ -23919,7 +23919,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Fluid.raw-gas",
@@ -24444,6 +24444,11 @@
             "goods": "Fluid.hot-molten-salt@1000",
             "amount": 0,
             "algorithm": 0
+          },
+          {
+            "goods": "Fluid.kerosene",
+            "amount": -550,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -24506,7 +24511,7 @@
             "entity": "Entity.py-coal-powerplant-mk01",
             "fuel": "Item.coke",
             "fixedBuildings": 0,
-            "enabled": false,
+            "enabled": true,
             "tag": 0,
             "modules": null,
             "subgroup": {
@@ -24553,7 +24558,7 @@
                   "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.flue-gas",
+                  "goods": "Item.ash",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -24722,54 +24727,45 @@
             "entity": "Entity.py-oil-powerplant-mk01",
             "fuel": "Fluid.kerosene",
             "fixedBuildings": 0,
-            "enabled": false,
+            "enabled": true,
             "tag": 0,
             "modules": null,
             "subgroup": {
               "expanded": true,
               "links": [
                 {
-                  "goods": "Fluid.kerosene",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
                   "goods": "Fluid.heavy-oil",
                   "amount": 0,
                   "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.low-distillate",
+                  "goods": "Item.coke",
                   "amount": 0,
                   "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.crude-oil",
+                  "goods": "Fluid.vacuum",
                   "amount": 0,
                   "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.residual-oil",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.residual-mixture",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.hot-residual-mixture",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.medium-distillate",
+                  "goods": "Fluid.tar",
                   "amount": 0,
                   "algorithm": 0
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Recipe.coal-molten-salt-01",
+                  "entity": "Entity.py-coal-powerplant-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
                 {
                   "recipe": "Recipe.heavy-oil-to-kerosene",
                   "entity": "Entity.olefin-plant",
@@ -24782,89 +24778,42 @@
                   "variants": []
                 },
                 {
-                  "recipe": "Recipe.low-distillate-to-heavy-oil",
-                  "entity": "Entity.compressor-mk01",
+                  "recipe": "Recipe.tar-to-heavycoke",
+                  "entity": "Entity.heavy-oil-refinery-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ]
-                },
-                {
-                  "recipe": "Recipe.oil-breakdown-2",
-                  "entity": "Entity.distilator",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.coke-oven-gas@100"
-                  ]
-                },
-                {
-                  "recipe": "Mechanics.mining.oil-mk01.oil-mk01",
-                  "entity": "Entity.bitumen-seep-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.residual-mixture",
-                  "entity": "Entity.mixer-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.steam@150"
-                  ]
-                },
-                {
-                  "recipe": "Recipe.residual-mixture-distillation",
-                  "entity": "Entity.distilator",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.hot-residual-mixture-to-coke",
-                  "entity": "Entity.upgrader-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15",
-                    "Fluid.steam@150"
-                  ]
-                },
-                {
-                  "recipe": "Recipe.medium-distillate-to-stripped-distillate",
-                  "entity": "Entity.lor-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.vacuum",
+                        "entity": "Entity.vacuum-pump-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Mechanics.mining.tar-patch.tar-patch",
+                        "entity": "Entity.tar-seep-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 15,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
                   "variants": []
                 }
               ],
@@ -24877,11 +24826,11 @@
             "entity": "Entity.py-biomass-powerplant-mk01",
             "fuel": "Item.dried-biomass",
             "fixedBuildings": 0,
-            "enabled": true,
+            "enabled": false,
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.dried-biomass",
