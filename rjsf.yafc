@@ -10,7 +10,9 @@
       "Recipe.advanced-circuit",
       "Item.chemical-science-pack",
       "Item.py-science-pack-3",
+      "Recipe.processing-unit",
       "Item.production-science-pack",
+      "Recipe.intelligent-unit",
       "Item.py-science-pack-4",
       "Item.utility-science-pack",
       "Item.space-science-pack"
@@ -9597,7 +9599,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.depolymerized-organics",
@@ -9692,7 +9694,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.zogna-bacteria",
@@ -9873,7 +9875,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.agar",
@@ -9920,7 +9922,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.stopper",
@@ -10130,7 +10132,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.polybutadiene",
@@ -14187,7 +14189,7 @@
           {
             "goods": "Item.lead-plate",
             "amount": 1,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Item.tin-plate",
@@ -14252,11 +14254,6 @@
           {
             "goods": "Item.nexelit-plate",
             "amount": 1,
-            "algorithm": 0
-          },
-          {
-            "goods": "Item.silver-plate",
-            "amount": 0.1,
             "algorithm": 0
           },
           {
@@ -15050,11 +15047,6 @@
             "algorithm": 0
           },
           {
-            "goods": "Item.coke",
-            "amount": 0,
-            "algorithm": 1
-          },
-          {
             "goods": "Item.coal-dust",
             "amount": 0,
             "algorithm": 0
@@ -15098,6 +15090,16 @@
             "goods": "Fluid.steam@250",
             "amount": 0,
             "algorithm": 1
+          },
+          {
+            "goods": "Item.raw-coal",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.coke",
+            "amount": 0,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -16644,7 +16646,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [],
                     "recipes": [
                       {
@@ -16806,7 +16808,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.niobium-oxide",
@@ -17234,7 +17236,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.methanal",
@@ -17809,17 +17811,6 @@
                 {
                   "recipe": "Recipe.graphite",
                   "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.silver-plate-1",
-                  "entity": "Entity.advanced-foundry-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -18524,7 +18515,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.sb-grade-04",
@@ -21259,7 +21250,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.pressured-water",
@@ -22433,11 +22424,6 @@
                   "algorithm": 0
                 },
                 {
-                  "goods": "Item.raw-coal",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
                   "goods": "Fluid.water@15",
                   "amount": 0,
                   "algorithm": 0
@@ -22542,17 +22528,6 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
-                },
-                {
-                  "recipe": "Mechanics.mining.basic-solid.raw-coal",
-                  "entity": "Entity.electric-mining-drill",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
                 }
               ],
               "modules": null
@@ -22570,7 +22545,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.pressured-air",
@@ -22712,7 +22687,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.diesel-canister",
@@ -22721,6 +22696,17 @@
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Mechanics.mining.basic-solid.raw-coal",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
                 {
                   "recipe": "Mechanics.mining.basic-solid.copper-ore",
                   "entity": "Entity.electric-mining-drill",
@@ -22747,7 +22733,7 @@
                   "recipe": "Mechanics.mining.basic-with-fluid.ore-lead",
                   "entity": "Entity.fluid-drill-mk02",
                   "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
+                  "fixedBuildings": 90,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
@@ -23092,7 +23078,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.methanol-gas-canister",
@@ -23165,7 +23151,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -23343,6 +23329,11 @@
                 },
                 {
                   "goods": "Fluid.naphtha",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.bitumen",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -23686,11 +23677,6 @@
                       },
                       {
                         "goods": "Fluid.bitumen-froth",
-                        "amount": 0,
-                        "algorithm": 0
-                      },
-                      {
-                        "goods": "Fluid.bitumen",
                         "amount": 0,
                         "algorithm": 0
                       },
@@ -24046,6 +24032,17 @@
                   "variants": []
                 },
                 {
+                  "recipe": "Recipe.bitumen-to-nitrogen",
+                  "entity": "Entity.upgrader-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
                   "recipe": "Recipe.light-oil-aromatics",
                   "entity": "Entity.distilator",
                   "fuel": "Power.electricity",
@@ -24116,7 +24113,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -24125,11 +24122,6 @@
                 },
                 {
                   "goods": "Fluid.pressured-air",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.purest-nitrogen-gas",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -24144,7 +24136,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [],
                     "recipes": [
                       {
@@ -24166,28 +24158,6 @@
                 {
                   "recipe": "Recipe.chlorine",
                   "entity": "Entity.electrolyzer-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.nitrogen",
-                  "entity": "Entity.carbon-filter",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": []
-                },
-                {
-                  "recipe": "Recipe.purest-nitrogen-gas",
-                  "entity": "Entity.distilator",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -25107,18 +25077,23 @@
             "algorithm": 0
           },
           {
-            "goods": "Item.gravel",
-            "amount": 0,
-            "algorithm": 0
-          },
-          {
             "goods": "Item.stone",
             "amount": 0,
             "algorithm": 0
           },
           {
-            "goods": "Item.ash",
-            "amount": 0,
+            "goods": "Item.niobium-plate",
+            "amount": 4,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.ore-lead",
+            "amount": -90,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.ore-tin",
+            "amount": -15,
             "algorithm": 0
           }
         ],
@@ -25132,7 +25107,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.grade-2-iron",
@@ -25171,6 +25146,11 @@
                 },
                 {
                   "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.gravel",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -25271,6 +25251,38 @@
                   "variants": []
                 },
                 {
+                  "recipe": "Recipe.hydrogen",
+                  "entity": "Entity.electrolyzer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.saline-water",
+                        "entity": "Entity.washer",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
                   "recipe": "Mechanics.pump.water.water",
                   "entity": "Entity.stone-waterwell",
                   "fuel": "Power.void",
@@ -25279,6 +25291,51 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.sand-casting",
+                  "entity": "Entity.tar-processing-unit",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.sand",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.gravel-to-sand",
+                        "entity": "Entity.jaw-crusher",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.stone-to-gravel",
+                        "entity": "Entity.jaw-crusher",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
                   "variants": []
                 }
               ],
@@ -25332,21 +25389,8 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.hydrogen",
+            "recipe": "Recipe.hotair-niobium-plate",
             "entity": "Entity.electrolyzer-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": null,
-            "variants": [
-              "Fluid.water@15"
-            ]
-          },
-          {
-            "recipe": "Recipe.sand-casting",
-            "entity": "Entity.tar-processing-unit",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
@@ -25356,19 +25400,156 @@
               "expanded": false,
               "links": [
                 {
-                  "goods": "Item.sand",
+                  "goods": "Item.niobium-oxide",
                   "amount": 0,
                   "algorithm": 0
                 },
                 {
-                  "goods": "Item.gravel",
+                  "goods": "Fluid.niobium-complex",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.organic-solvent",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.hydrogen-chloride",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.niobium-concentrate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.niobium-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.niobium-powder",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.niobium-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.refsyngas",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.methanol-gas-canister",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.methanol",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.empty-gas-canister",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.nitrogen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.oxygen",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-air",
                   "amount": 0,
                   "algorithm": 0
                 }
               ],
               "recipes": [
                 {
-                  "recipe": "Recipe.gravel-to-sand",
+                  "recipe": "Recipe.niobium-oxide",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.niobium-complex",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.naphthalene-solvent",
+                        "entity": "Entity.distilator",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.hcl-from-guts",
+                        "entity": "Entity.bio-reactor-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.niobium-concentrate",
+                  "entity": "Entity.classifier",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.niobium-dust",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.niobium-powder",
                   "entity": "Entity.jaw-crusher",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
@@ -25379,8 +25560,80 @@
                   "variants": []
                 },
                 {
-                  "recipe": "Recipe.stone-to-gravel",
-                  "entity": "Entity.jaw-crusher",
+                  "recipe": "Mechanics.mining.niobium.niobium",
+                  "entity": "Entity.niobium-mine",
+                  "fuel": "Item.drill-head",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.refsyngas-from-meth-canister",
+                  "entity": "Entity.rectisol",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.fill-methanol-gas-canister",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.methanol-from-syngas",
+                        "entity": "Entity.methanol-reactor",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.purest-nitrogen-gas",
+                  "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.oxygen-pyvoid-gas",
+                  "entity": "Entity.py-gas-vent",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.pressured-air",
+                  "entity": "Entity.vacuum-pump-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -25395,8 +25648,603 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.saline-water",
-            "entity": "Entity.washer",
+            "recipe": "Recipe.grade-1-lead",
+            "entity": "Entity.automated-screener-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-1-lead",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-lead",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-lead",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.lead-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-2-lead-crusher",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-2-lead",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-2-crush-lead",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.molten-lead-01",
+                  "entity": "Entity.eaf-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.crushed-coal",
+            "entity": "Entity.secondary-crusher-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.crushed-coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coal",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.redhot-coke",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.pressured-air",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.steam@250",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.coke-oven-gas@500",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.coarse-coal",
+                  "amount": 0,
+                  "algorithm": 1
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.coarse-coal",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.redhot-coke",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coarse-coal",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@250"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.quench-redcoke",
+                  "entity": "Entity.quenching-tower",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.pressured-air",
+                        "entity": "Entity.vacuum-pump-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.tidal-placer-mk01",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.boiler.electric-boiler.steam",
+                  "entity": "Entity.electric-boiler",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.warmer-stone-brick-1",
+                  "entity": "Entity.rhe",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": false,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.warmer-stone-brick",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.warm-stone-brick",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.warmer-air-2",
+                        "entity": "Entity.rhe",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.warm-stone-brick-1",
+                        "entity": "Entity.rhe",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.coke-oven-gas@250"
+                        ]
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.grade-1-tin",
+            "entity": "Entity.automated-screener-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.grade-1-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.tin-ore-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-4-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.tin-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-2-crush-tin",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.grade-3-tin",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.tin-ore-rejects",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.wash-grade-3-tin",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Recipe.ball-grade-4-tin",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.graphite",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.molten-tin-01",
+                  "entity": "Entity.eaf-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "fd028c3728d542b8a99f21d55caf99f5",
+      "icon": "Recipe.agitator-mk01-pyvoid",
+      "name": "test",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.iron-ore",
+            "amount": -15,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.processed-iron-ore",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.grade-1-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.grade-2-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.grade-3-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-ore-dust",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.iron-pulp-01",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.iron-slime",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-concentrate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-dust-concentrate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.iron-pulp-07",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.high-grade-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.reduced-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.sintered-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.molten-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.unslimed-iron",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Fluid.armac-12",
+            "amount": 0,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.grade-1-iron-crush",
+            "entity": "Entity.jaw-crusher-mk04",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.grade-2-iron",
+            "entity": "Entity.automated-screener-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.iron-ore-dust",
+            "entity": "Entity.ball-mill-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.grade-2-crush",
+            "entity": "Entity.impact-crusher-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.grade-3-iron-processing",
+            "entity": "Entity.secondary-crusher-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.classify-iron-ore-dust",
+            "entity": "Entity.hydroclassifier-mk01",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
@@ -25408,8 +26256,111 @@
             ]
           },
           {
-            "recipe": "Recipe.flue-gas-2",
-            "entity": "Entity.gas-refinery-mk01",
+            "recipe": "Recipe.iron-concentrate",
+            "entity": "Entity.jig-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.unslimed-iron",
+            "entity": "Entity.hydroclassifier-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.iron-ore-dust-2",
+            "entity": "Entity.ball-mill-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.iron-pulp-07",
+            "entity": "Entity.flotation-cell-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.high-grade-iron",
+            "entity": "Entity.carbon-filter",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.reduction-iron",
+            "entity": "Entity.drp",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.sinter-iron-2",
+            "entity": "Entity.sinter-unit",
+            "fuel": "Item.coarse-coal",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.molten-iron-06",
+            "entity": "Entity.bof-mk01",
+            "fuel": "Item.coarse-coal",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.molten-iron-01",
+            "entity": "Entity.bof-mk01",
+            "fuel": "Item.coarse-coal",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.hotair-iron-plate-1",
+            "entity": "Entity.casting-unit-mk01",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "enabled": true,
