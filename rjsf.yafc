@@ -1094,7 +1094,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.molten-glass",
@@ -1150,7 +1150,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.latex",
@@ -1272,7 +1272,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.caged-vrauks",
@@ -1541,7 +1541,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.pitch",
@@ -1663,7 +1663,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.coal",
@@ -9248,7 +9248,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.alien-sample01",
@@ -9694,7 +9694,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.zogna-bacteria",
@@ -9922,7 +9922,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.stopper",
@@ -10132,7 +10132,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.polybutadiene",
@@ -10304,7 +10304,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -10432,7 +10432,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.cottongut-pup",
@@ -10994,7 +10994,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.caged-vrauks",
@@ -11478,7 +11478,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.tar",
@@ -14189,7 +14189,7 @@
           {
             "goods": "Item.lead-plate",
             "amount": 1,
-            "algorithm": 1
+            "algorithm": 0
           },
           {
             "goods": "Item.tin-plate",
@@ -14974,7 +14974,7 @@
           {
             "goods": "Fluid.carbon-dioxide",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Fluid.tar",
@@ -15079,17 +15079,12 @@
           {
             "goods": "Item.sodium-hydroxide",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Item.coarse-coal",
             "amount": 0,
             "algorithm": 0
-          },
-          {
-            "goods": "Fluid.steam@250",
-            "amount": 0,
-            "algorithm": 1
           },
           {
             "goods": "Item.raw-coal",
@@ -15437,17 +15432,6 @@
             "variants": []
           },
           {
-            "recipe": "Recipe.automated-factory-mk01",
-            "entity": "Entity.automated-factory-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": null,
-            "variants": []
-          },
-          {
             "recipe": "Recipe.filter-inserter",
             "entity": "Entity.automated-factory-mk01",
             "fuel": "Power.electricity",
@@ -15631,6 +15615,17 @@
                 },
                 {
                   "recipe": "Recipe.py-ze",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.automated-factory-mk01",
                   "entity": "Entity.automated-factory-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
@@ -16635,7 +16630,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [],
                     "recipes": [
                       {
@@ -17225,7 +17220,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.methanal",
@@ -18504,7 +18499,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.sb-grade-04",
@@ -18586,7 +18581,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.zinc-chloride",
@@ -19077,6 +19072,69 @@
               ],
               "modules": null
             },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.cellulose-00",
+            "entity": "Entity.hpf",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.limestone",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.extract-limestone-01",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          },
+          {
+            "recipe": "Recipe.cellulose-02",
+            "entity": "Entity.biofactory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": false,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
             "variants": []
           },
           {
@@ -19758,22 +19816,6 @@
             "variants": [
               "Fluid.water@15"
             ]
-          },
-          {
-            "recipe": "Recipe.cellulose-02",
-            "entity": "Entity.biofactory-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [],
-              "recipes": [],
-              "modules": null
-            },
-            "variants": []
           },
           {
             "recipe": "Recipe.full-render-vrauks",
@@ -21926,7 +21968,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.molten-glass",
@@ -22114,15 +22156,15 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
-                  "goods": "Item.soil",
+                  "goods": "Fluid.water@15",
                   "amount": 0,
                   "algorithm": 0
                 },
                 {
-                  "goods": "Fluid.water@15",
+                  "goods": "Item.soil",
                   "amount": 0,
                   "algorithm": 0
                 }
@@ -22171,20 +22213,32 @@
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ]
-                },
-                {
-                  "recipe": "Recipe.soil",
-                  "entity": "Entity.soil-extractormk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.soil",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.soil",
+                        "entity": "Entity.soil-extractormk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ]
+                      }
+                    ],
+                    "modules": null
+                  },
                   "variants": [
                     "Fluid.water@15"
                   ]
@@ -22199,6 +22253,19 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
+                },
+                {
+                  "recipe": "Recipe.soil",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
                 }
               ],
               "modules": null
@@ -22575,6 +22642,16 @@
                   "goods": "Fluid.coke-oven-gas@100",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.hot-molten-salt@1000",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.molten-salt",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -22661,6 +22738,17 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": []
+                },
+                {
+                  "recipe": "Recipe.coal-molten-salt-01",
+                  "entity": "Entity.py-coal-powerplant-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
                 }
               ],
               "modules": null
@@ -22722,7 +22810,7 @@
                   "recipe": "Mechanics.mining.basic-with-fluid.ore-lead",
                   "entity": "Entity.fluid-drill-mk02",
                   "fuel": "Power.electricity",
-                  "fixedBuildings": 90,
+                  "fixedBuildings": 0,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
@@ -23151,7 +23239,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -23229,6 +23317,101 @@
                 {
                   "recipe": "Recipe.slacked-lime-pyvoid-fluid",
                   "entity": "Entity.py-sinkhole",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ]
+          },
+          {
+            "recipe": "Recipe.acetylene",
+            "entity": "Entity.gasifier",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.calcium-carbide",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.carbon-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.slacked-lime",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.slacked-lime-seaweed-recycle",
+                  "entity": "Entity.seaweed-crop-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.seaweed",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.carbon-dust",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.slacked-lime-from-seaweed",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ]
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.tidal-placer-mk01",
                   "fuel": "Power.void",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -23361,7 +23544,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Fluid.middle-oil",
@@ -23991,7 +24174,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Fluid.btx",
@@ -24240,7 +24423,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -25947,7 +26130,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.grade-1-tin",
@@ -26095,7 +26278,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.grade-1-chromite",
@@ -26488,6 +26671,594 @@
             "tag": 0,
             "modules": null,
             "subgroup": null,
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "1ffb9fceb60948cda4ac4fb2fab0ed8f",
+      "icon": "Item.advanced-circuit",
+      "name": "Red circuit",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.advanced-circuit",
+            "amount": 1,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.advanced-circuit",
+            "entity": "Entity.chipshooter-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.pcb2",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.phenolicboard",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.bakelite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.transistor",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.light-n",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.heavy-n",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.p-dope",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.silicon-wafer",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.eg-si",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.aramid",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.etching",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.microchip",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.cermet",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.crude-cermet",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.nylon",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.inductor2",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.diode",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.capacitor2",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.resistor2",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.optical-fiber",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.solder",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.battery-mk01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.mosfet",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.pcb2",
+                  "entity": "Entity.pcb-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.phenolicboard",
+                        "entity": "Entity.pulp-mill-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.bakelite",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.transistor",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.microchip",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.light-n",
+                  "entity": "Entity.gas-separator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.heavy-n",
+                  "entity": "Entity.gas-separator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.p-dope",
+                  "entity": "Entity.gas-separator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.silicon-wafer",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.eg-si",
+                  "entity": "Entity.advanced-foundry-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.aramid",
+                  "entity": "Entity.nmf-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.etching",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.cermet",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.crude-cermet",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.nylon2",
+                  "entity": "Entity.mixer-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.inductor2",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.diode",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.capacitor2",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.resistor2",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.optical-fiber",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.hotair-solder",
+                  "entity": "Entity.casting-unit-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.battery-mk01",
+                  "entity": "Entity.chemical-plant-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.mosfet",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
+            "variants": []
+          }
+        ],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "79be1c8761c04b7fa86dff9db301a30d",
+      "icon": null,
+      "name": "Circ",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.electronic-circuit",
+            "amount": 15,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.electronic-circuit-2",
+            "entity": "Entity.chipshooter-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.vacuum-tube",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.inductor1",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.capacitor1",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.resistor1",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.vacuum-tube",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Fluid.vacuum",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.graphite",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      },
+                      {
+                        "recipe": "Recipe.vacuum",
+                        "entity": "Entity.vacuum-pump-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.inductor1",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.copper-cable",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.copper-cable",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": []
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.capacitor1",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                },
+                {
+                  "recipe": "Recipe.resistor1",
+                  "entity": "Entity.electronics-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": []
+                }
+              ],
+              "modules": null
+            },
             "variants": []
           }
         ],
