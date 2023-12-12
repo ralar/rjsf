@@ -26471,8 +26471,8 @@
                   "variants": []
                 },
                 {
-                  "recipe": "Recipe.copper-rejects-recrush",
-                  "entity": "Entity.impact-crusher-mk01",
+                  "recipe": "Recipe.grade-4-copper",
+                  "entity": "Entity.automated-screener-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -26482,8 +26482,8 @@
                   "variants": []
                 },
                 {
-                  "recipe": "Recipe.grade-4-copper",
-                  "entity": "Entity.automated-screener-mk01",
+                  "recipe": "Recipe.copper-rejects-recrush",
+                  "entity": "Entity.impact-crusher-mk01",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
