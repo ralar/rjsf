@@ -15868,7 +15868,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.fawogae-substrate",
@@ -16133,7 +16133,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.belt",
@@ -18164,7 +18164,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.clean-nexelit",
@@ -18709,7 +18709,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.graphite",
@@ -18914,7 +18914,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.graphite",
@@ -19438,7 +19438,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.sb-grade-04",
@@ -19693,7 +19693,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.dirty-water-light",
@@ -19976,7 +19976,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.wood-seedling",
@@ -20107,7 +20107,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.limestone",
@@ -20161,12 +20161,7 @@
             "enabled": true,
             "tag": 0,
             "modules": null,
-            "subgroup": {
-              "expanded": true,
-              "links": [],
-              "recipes": [],
-              "modules": null
-            },
+            "subgroup": null,
             "variants": [],
             "shouldFocusOnEmptySearch": false
           },
@@ -20271,7 +20266,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.yaedols-spores",
@@ -20354,7 +20349,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.soil",
@@ -20423,7 +20418,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.soil",
@@ -20553,7 +20548,7 @@
                   },
                   "subgroup": null,
                   "variants": [],
-                  "shouldFocusOnEmptySearch": true
+                  "shouldFocusOnEmptySearch": false
                 },
                 {
                   "recipe": "Recipe.moondrop-seeds",
@@ -20815,7 +20810,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -20979,7 +20974,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.caged-vrauks",
@@ -21889,7 +21884,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.wood-seeds",
@@ -22001,7 +21996,7 @@
               "beaconList": []
             },
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.ulric-cub",
@@ -23443,7 +23438,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.polybutadiene",
@@ -23490,7 +23485,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Fluid.vacuum",
@@ -23526,7 +23521,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": false,
+                    "expanded": true,
                     "links": [
                       {
                         "goods": "Item.latex-slab",
@@ -23782,7 +23777,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.pressured-air",
@@ -23894,7 +23889,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [
@@ -23909,7 +23904,7 @@
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
-                  "tag": 0,
+                  "tag": 1,
                   "modules": null,
                   "subgroup": null,
                   "variants": [],
@@ -23966,7 +23961,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.diesel-canister",
@@ -24386,7 +24381,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.methanol-gas-canister",
@@ -24731,7 +24726,7 @@
             "tag": 1,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.scrude",
@@ -25742,7 +25737,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Fluid.water@15",
@@ -28738,6 +28733,16 @@
             "goods": "Item.ore-zinc",
             "amount": 0,
             "algorithm": 0
+          },
+          {
+            "goods": "Item.ulric-cub",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.ulric-food-01",
+            "amount": 0,
+            "algorithm": 0
           }
         ],
         "recipes": [
@@ -30817,7 +30822,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Item.wood",
@@ -30870,7 +30875,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": true,
+              "expanded": false,
               "links": [
                 {
                   "goods": "Fluid.pressured-air",
@@ -30888,7 +30893,7 @@
                   "recipe": "Recipe.hydrogen",
                   "entity": "Entity.electrolyzer-mk01",
                   "fuel": "Power.electricity",
-                  "fixedBuildings": 100,
+                  "fixedBuildings": 105,
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
@@ -31011,6 +31016,11 @@
                   "goods": "Fluid.pressured-air",
                   "amount": 0,
                   "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.flue-gas",
+                  "amount": 0,
+                  "algorithm": 0
                 }
               ],
               "recipes": [
@@ -31043,6 +31053,33 @@
                 {
                   "recipe": "Recipe.warmer-air-2",
                   "entity": "Entity.rhe",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.quench-ovengas",
+                  "entity": "Entity.quenching-tower",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 25,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15",
+                    "Fluid.coke-oven-gas@100"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fluegas-to-syngas",
+                  "entity": "Entity.carbon-filter",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "enabled": true,
@@ -31538,7 +31575,99 @@
                   "enabled": true,
                   "tag": 0,
                   "modules": null,
-                  "subgroup": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.boiler.boiler.steam",
+                        "entity": "Entity.boiler",
+                        "fuel": "Item.coke",
+                        "fixedBuildings": 102.66802,
+                        "enabled": false,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": {
+                          "expanded": false,
+                          "links": [
+                            {
+                              "goods": "Fluid.water@15",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Mechanics.pump.water.water",
+                              "entity": "Entity.stone-waterwell",
+                              "fuel": "Power.void",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.hydrogen-pyvoid-gas",
+                        "entity": "Entity.py-gas-vent",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.coal-gas-from-coke",
+                        "entity": "Entity.distilator",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 20,
+                        "enabled": false,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": {
+                          "expanded": true,
+                          "links": [
+                            {
+                              "goods": "Item.ash",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Recipe.ash-separation",
+                              "entity": "Entity.solid-separator",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
                   "variants": [
                     "Fluid.steam@250"
                   ],
@@ -31748,7 +31877,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Fluid.water@15",
@@ -31869,7 +31998,7 @@
                   "tag": 0,
                   "modules": null,
                   "subgroup": {
-                    "expanded": true,
+                    "expanded": false,
                     "links": [
                       {
                         "goods": "Fluid.stripped-distillate",
@@ -32189,18 +32318,6 @@
                   },
                   "variants": [],
                   "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.hydrogen-pyvoid-gas",
-                  "entity": "Entity.py-gas-vent",
-                  "fuel": "Power.void",
-                  "fixedBuildings": 0,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
                 }
               ],
               "modules": null
@@ -32444,6 +32561,176 @@
               ],
               "recipes": [
                 {
+                  "recipe": "Recipe.seaweed-mk02",
+                  "entity": "Entity.seaweed-crop-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 10,
+                  "enabled": false,
+                  "tag": 1,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.seaweed-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.molybdenum-oxide",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.molybdenum-sulfide",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.molybdenum-pulp",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.molybdenum-concentrate",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.molybdenite-pulp",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.molybdenite-dust",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.crushed-molybdenite",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.molybdenum-ore",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.molybdenum-oxide",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.molybdenum-filtration",
+                        "entity": "Entity.carbon-filter",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.molybdenum-pulp",
+                        "entity": "Entity.thickener-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.molybdenum-concentrate",
+                        "entity": "Entity.hydrocyclone-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.molybdenite-pulp",
+                        "entity": "Entity.agitator-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.milling-molybdenite",
+                        "entity": "Entity.ball-mill-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.crushing-molybdenite",
+                        "entity": "Entity.jaw-crusher",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.mining.molybdenum.molybdenum-ore",
+                        "entity": "Entity.mo-mine",
+                        "fuel": "Item.drill-head",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
                   "recipe": "Recipe.petri-dish",
                   "entity": "Entity.automated-factory-mk01",
                   "fuel": "Power.electricity",
@@ -32506,7 +32793,7 @@
                     "beacon": null,
                     "list": [
                       {
-                        "module": "Item.moondrop",
+                        "module": "Item.moondrop-mk02",
                         "fixedCount": 0
                       }
                     ],
@@ -32554,6 +32841,96 @@
               "modules": null
             },
             "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.ralesias-1",
+            "entity": "Entity.ralesia-plantation-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 702,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.ralesias",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.soil",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.soil",
+                  "entity": "Entity.soil-extractormk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.stone-waterwell",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.ralesia-seeds",
+                  "entity": "Entity.botanical-nursery",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 48,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.ralesia-seeds",
+                  "entity": "Entity.botanical-nursery",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 22,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [
+              "Fluid.water@15"
+            ],
             "shouldFocusOnEmptySearch": false
           },
           {
@@ -33252,6 +33629,1220 @@
             },
             "variants": [],
             "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.vrauks-2",
+            "entity": "Entity.vrauks-paddock-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 300,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.vrauks-mk02",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.saps",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.caged-vrauks",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.full-render-vrauks",
+                  "entity": "Entity.slaughterhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 43,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.cage",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.caged-vrauks",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.vrauks-cocoon-2",
+                  "entity": "Entity.rc-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 86,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.vrauks-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.water-barrel",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.empty-barrel",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.fill-water-barrel",
+                        "entity": "Entity.barrel-machine-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.latex",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 90,
+                  "enabled": false,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.latex-slab",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.sodium-alginate",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.limestone",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.creamy-latex",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.latex-slab",
+                        "entity": "Entity.distilator",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.sodium-alginate",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.creamy-latex",
+                        "entity": "Entity.washer",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.extract-limestone-01",
+                        "entity": "Entity.soil-extractormk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.steam@150"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.vrauks-food-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 15,
+                  "enabled": true,
+                  "tag": 1,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.wood-seeds",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.wood",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.fawogae",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.steam@250",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.wood-seeds",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.log-wood",
+                        "entity": "Entity.wpu",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.fawogae-1",
+                        "entity": "Entity.fawogae-plantation-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
+                        "modules": {
+                          "beacon": null,
+                          "list": [
+                            {
+                              "module": "Item.fawogae",
+                              "fixedCount": 0
+                            }
+                          ],
+                          "beaconList": []
+                        },
+                        "subgroup": {
+                          "expanded": false,
+                          "links": [
+                            {
+                              "goods": "Item.fawogae-spore",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Recipe.fawogae-spore-2",
+                              "entity": "Entity.spore-collector-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 1,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.boiler.electric-boiler.steam",
+                        "entity": "Entity.electric-boiler",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 1,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.steam@250"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.sap-01",
+                  "entity": "Entity.sap-extractor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 1,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.sap-tree-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.ulric-1",
+            "entity": "Entity.ulric-corral-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 30,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.ulric",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.fawogae",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.water-barrel",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.ulric-cub-1",
+                  "entity": "Entity.rc-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.ulric",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.water-barrel",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.fill-water-barrel",
+                        "entity": "Entity.barrel-machine-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fill-water-barrel",
+                  "entity": "Entity.barrel-machine-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.ulric-food-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.fawogae",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.fawogae-spore",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.wood-seeds",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.wood",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.steam@250",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.fawogae-1",
+                        "entity": "Entity.fawogae-plantation-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": {
+                          "beacon": null,
+                          "list": [
+                            {
+                              "module": "Item.fawogae",
+                              "fixedCount": 0
+                            }
+                          ],
+                          "beaconList": []
+                        },
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.fawogae-spore-2",
+                        "entity": "Entity.spore-collector-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.wood-seeds",
+                        "entity": "Entity.automated-factory-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.log-wood",
+                        "entity": "Entity.wpu",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.boiler.electric-boiler.steam",
+                        "entity": "Entity.electric-boiler",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.steam@250"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fawogae-1",
+                  "entity": "Entity.fawogae-plantation-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fawogae",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.fawogae-spore",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.fawogae-spore-2",
+                        "entity": "Entity.spore-collector-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.breed-fish-2-agressive-selection",
+            "entity": "Entity.fish-farm-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 135,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.fish-mk02",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.fish-egg",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.filtration-media",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.breed-fish-egg-2",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.phytoplankton",
+                  "entity": "Entity.plankton-farm",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 190,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.filtration-media",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Item.micro-fiber",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.fiber",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.raw-fiber",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.kicalk",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.kicalk-seeds",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.clay",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.active-carbon",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.sodium-hydroxide",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.nitrogen",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.pure-sand",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.sand",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Item.soil",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.kicalk-2",
+                        "entity": "Entity.kicalk-plantation-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": {
+                          "beacon": null,
+                          "list": [
+                            {
+                              "module": "Item.kicalk",
+                              "fixedCount": 0
+                            }
+                          ],
+                          "beaconList": []
+                        },
+                        "subgroup": {
+                          "expanded": false,
+                          "links": [
+                            {
+                              "goods": "Fluid.water@15",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Recipe.micro-fiber",
+                              "entity": "Entity.pulp-mill-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Recipe.fiber",
+                              "entity": "Entity.centrifuge-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Recipe.kicalk-fiber",
+                              "entity": "Entity.wpu",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Recipe.kicalk-seeds",
+                              "entity": "Entity.botanical-nursery",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Recipe.clay",
+                              "entity": "Entity.clay-pit-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": {
+                                "expanded": true,
+                                "links": [
+                                  {
+                                    "goods": "Fluid.steam@250",
+                                    "amount": 0,
+                                    "algorithm": 0
+                                  }
+                                ],
+                                "recipes": [
+                                  {
+                                    "recipe": "Mechanics.boiler.electric-boiler.steam",
+                                    "entity": "Entity.electric-boiler",
+                                    "fuel": "Power.electricity",
+                                    "fixedBuildings": 0,
+                                    "enabled": true,
+                                    "tag": 0,
+                                    "modules": null,
+                                    "subgroup": null,
+                                    "variants": [
+                                      "Fluid.water@15"
+                                    ],
+                                    "shouldFocusOnEmptySearch": false
+                                  }
+                                ],
+                                "modules": null
+                              },
+                              "variants": [
+                                "Fluid.steam@250"
+                              ],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Mechanics.pump.water.water",
+                              "entity": "Entity.stone-waterwell",
+                              "fuel": "Power.void",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.chlorine",
+                        "entity": "Entity.electrolyzer-mk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.purest-nitrogen-gas",
+                        "entity": "Entity.distilator",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": {
+                          "expanded": true,
+                          "links": [
+                            {
+                              "goods": "Fluid.pressured-air",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Recipe.pressured-air",
+                              "entity": "Entity.vacuum-pump-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.active-carbon",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": {
+                          "expanded": true,
+                          "links": [
+                            {
+                              "goods": "Item.zinc-chloride",
+                              "amount": 0,
+                              "algorithm": 0
+                            },
+                            {
+                              "goods": "Fluid.hydrogen-chloride",
+                              "amount": 0,
+                              "algorithm": 0
+                            }
+                          ],
+                          "recipes": [
+                            {
+                              "recipe": "Recipe.zinc-chloride",
+                              "entity": "Entity.chemical-plant-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            },
+                            {
+                              "recipe": "Recipe.hydrogen-chloride",
+                              "entity": "Entity.chemical-plant-mk01",
+                              "fuel": "Power.electricity",
+                              "fixedBuildings": 0,
+                              "enabled": true,
+                              "tag": 0,
+                              "modules": null,
+                              "subgroup": null,
+                              "variants": [],
+                              "shouldFocusOnEmptySearch": false
+                            }
+                          ],
+                          "modules": null
+                        },
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.sand-washing",
+                        "entity": "Entity.washer",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.soil-washing",
+                        "entity": "Entity.washer",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Recipe.soil",
+                        "entity": "Entity.soil-extractormk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.fish-mk02-breeder",
+            "entity": "Entity.fish-farm-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 10,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.fish-mk02",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.fish-egg-mk02",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fish-mk02",
+                  "amount": 0,
+                  "algorithm": 1
+                },
+                {
+                  "goods": "Fluid.phytoplankton",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.fish-egg-mk02-breeder",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.phytoplankton",
+                  "entity": "Entity.plankton-farm",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fish-mk02",
+                  "entity": "Entity.fish-farm-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": false,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fish-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
           }
         ],
         "modules": {
@@ -33294,6 +34885,195 @@
           }
         ],
         "recipes": [],
+        "modules": {
+          "fillMiners": false,
+          "autoFillPayback": 0,
+          "fillerModule": null,
+          "beacon": null,
+          "beaconModule": null,
+          "beaconsPerBuilding": 8
+        }
+      }
+    },
+    {
+      "contentType": "YAFC.Model.ProductionTable",
+      "guid": "1613d45a5690426ead516707bf6a5b66",
+      "icon": "Item.vrauks-mk02",
+      "name": "Vrauk 2",
+      "content": {
+        "expanded": true,
+        "links": [
+          {
+            "goods": "Item.vrauks-mk02",
+            "amount": 0.02,
+            "algorithm": 0
+          }
+        ],
+        "recipes": [
+          {
+            "recipe": "Recipe.vrauks-mk02",
+            "entity": "Entity.rc-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 6,
+            "enabled": false,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.vrauks",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": null,
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.vrauks-mk02-cocoon",
+            "entity": "Entity.vrauks-paddock-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.vrauks",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Item.cocoon-mk02",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.saps",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.vrauks-food-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fawogae",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.fawogae-spore",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.vrauks-mk02-breeder",
+                  "entity": "Entity.vrauks-paddock-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.vrauks",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.sap-01",
+                  "entity": "Entity.sap-extractor-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.sap-tree-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.vrauks-food-01",
+                  "entity": "Entity.automated-factory-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fawogae-1",
+                  "entity": "Entity.fawogae-plantation-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.fawogae",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.fawogae-spore-2",
+                  "entity": "Entity.spore-collector-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          }
+        ],
         "modules": {
           "fillMiners": false,
           "autoFillPayback": 0,
