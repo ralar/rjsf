@@ -38530,7 +38530,7 @@
           {
             "goods": "Item.limestone",
             "amount": 0,
-            "algorithm": 0
+            "algorithm": 1
           },
           {
             "goods": "Item.ore-nickel",
@@ -38654,6 +38654,36 @@
           },
           {
             "goods": "Item.kicalk",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.iron-plate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.copper-plate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.copper-ore",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.lead-plate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.tin-plate",
+            "amount": 0,
+            "algorithm": 0
+          },
+          {
+            "goods": "Item.sand-casting",
             "amount": 0,
             "algorithm": 0
           }
@@ -40307,7 +40337,7 @@
                 {
                   "goods": "Fluid.carbolic-oil",
                   "amount": 0,
-                  "algorithm": 1
+                  "algorithm": 0
                 },
                 {
                   "goods": "Fluid.light-oil",
@@ -40319,6 +40349,19 @@
                 {
                   "recipe": "Recipe.naphthalene-solvent",
                   "entity": "Entity.distilator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.carbolic-oil-creosote",
+                  "entity": "Entity.tar-processing-unit",
                   "fuel": "Power.electricity",
                   "fixedBuildings": 0,
                   "builtBuildings": null,
@@ -41029,6 +41072,89 @@
             "shouldFocusOnEmptySearch": false
           },
           {
+            "recipe": "Recipe.sand-casting",
+            "entity": "Entity.tar-processing-unit",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.sand",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.soil-separation-2",
+                  "entity": "Entity.solid-separator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Item.soil",
+                        "amount": 0,
+                        "algorithm": 0
+                      },
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.soil",
+                        "entity": "Entity.soil-extractormk01",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [
+                          "Fluid.water@15"
+                        ],
+                        "shouldFocusOnEmptySearch": false
+                      },
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
             "recipe": "Recipe.eg-si",
             "entity": "Entity.advanced-foundry-mk01",
             "fuel": "Power.electricity",
@@ -41038,7 +41164,7 @@
             "tag": 0,
             "modules": null,
             "subgroup": {
-              "expanded": false,
+              "expanded": true,
               "links": [
                 {
                   "goods": "Item.coal-dust",
@@ -47932,816 +48058,6 @@
             "shouldFocusOnEmptySearch": false
           },
           {
-            "recipe": "Recipe.molten-iron-06",
-            "entity": "Entity.bof-mk01",
-            "fuel": "Item.coke",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.unslimed-iron",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.iron-pulp-01",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.iron-slime",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.water@15",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-1-iron",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-2-iron",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-3-iron",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.processed-iron-ore",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.iron-ore",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.unslimed-iron-2",
-                  "entity": "Entity.centrifuge-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.unslimed-iron",
-                  "entity": "Entity.hydroclassifier-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.classify-iron-ore-dust",
-                  "entity": "Entity.hydroclassifier-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.pump.water.water",
-                  "entity": "Entity.offshore-pump",
-                  "fuel": "Power.void",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.iron-ore-dust",
-                  "entity": "Entity.ball-mill-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-2-crush",
-                  "entity": "Entity.impact-crusher-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-3-iron-processing",
-                  "entity": "Entity.secondary-crusher-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-2-iron",
-                  "entity": "Entity.automated-screener-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-1-iron-crush",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.mining.basic-solid.iron-ore",
-                  "entity": "Entity.electric-mining-drill",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                }
-              ],
-              "modules": null
-            },
-            "variants": [],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
-            "recipe": "Recipe.molybdenum-plate",
-            "entity": "Entity.electrolyzer-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": {
-              "beacon": null,
-              "list": [
-                {
-                  "module": "Item.productivity-module",
-                  "fixedCount": 0
-                }
-              ],
-              "beaconList": []
-            },
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.molybdenum-oxide",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.molybdenum-sulfide",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.molybdenum-pulp",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.molybdenum-concentrate",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.molybdenite-pulp",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.molybdenite-dust",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.crushed-molybdenite",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.water@15",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.molybdenum-oxide",
-                  "entity": "Entity.hpf",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.molybdenum-filtration",
-                  "entity": "Entity.carbon-filter",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.molybdenum-pulp",
-                  "entity": "Entity.thickener-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": {
-                    "expanded": true,
-                    "links": [
-                      {
-                        "goods": "Fluid.water@15",
-                        "amount": 0,
-                        "algorithm": 0
-                      }
-                    ],
-                    "recipes": [
-                      {
-                        "recipe": "Mechanics.pump.water.water",
-                        "entity": "Entity.stone-waterwell",
-                        "fuel": "Power.void",
-                        "fixedBuildings": 0,
-                        "builtBuildings": null,
-                        "enabled": true,
-                        "tag": 0,
-                        "modules": null,
-                        "subgroup": null,
-                        "variants": [],
-                        "shouldFocusOnEmptySearch": false
-                      }
-                    ],
-                    "modules": null
-                  },
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.molybdenum-concentrate",
-                  "entity": "Entity.hydrocyclone-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.molybdenite-pulp",
-                  "entity": "Entity.agitator-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.milling-molybdenite",
-                  "entity": "Entity.ball-mill-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.crushing-molybdenite",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.productivity-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.mining.molybdenum.molybdenum-ore",
-                  "entity": "Entity.mo-mine",
-                  "fuel": "Item.drill-head",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.speed-module",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.pump.water.water",
-                  "entity": "Entity.stone-waterwell",
-                  "fuel": "Power.void",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                }
-              ],
-              "modules": null
-            },
-            "variants": [],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
-            "recipe": "Recipe.chromium-01",
-            "entity": "Entity.casting-unit-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.grade-3-chromite",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.chromite-rejects",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-2-chromite",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-1-chromite",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.ore-chromium",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Fluid.carbon-dioxide",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.moondrop-co2",
-                  "entity": "Entity.moondrop-greenhouse-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": {
-                    "beacon": null,
-                    "list": [
-                      {
-                        "module": "Item.moondrop-mk02",
-                        "fixedCount": 0
-                      }
-                    ],
-                    "beaconList": []
-                  },
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.tier-2-chromite-sand",
-                  "entity": "Entity.solid-separator",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.chromite-rejects-processing",
-                  "entity": "Entity.ball-mill-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-4-chromite",
-                  "entity": "Entity.hydrocyclone-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": {
-                    "expanded": true,
-                    "links": [
-                      {
-                        "goods": "Fluid.water@15",
-                        "amount": 0,
-                        "algorithm": 0
-                      }
-                    ],
-                    "recipes": [
-                      {
-                        "recipe": "Mechanics.pump.water.water",
-                        "entity": "Entity.stone-waterwell",
-                        "fuel": "Power.void",
-                        "fixedBuildings": 0,
-                        "builtBuildings": null,
-                        "enabled": true,
-                        "tag": 0,
-                        "modules": null,
-                        "subgroup": null,
-                        "variants": [],
-                        "shouldFocusOnEmptySearch": false
-                      }
-                    ],
-                    "modules": null
-                  },
-                  "variants": [
-                    "Fluid.water@15"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-2-chromite-beneficiation",
-                  "entity": "Entity.automated-screener-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-3-chromite",
-                  "entity": "Entity.impact-crusher-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-1-chromite",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.mining.basic-with-fluid.ore-chromium",
-                  "entity": "Entity.fluid-drill-mk02",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                }
-              ],
-              "modules": null
-            },
-            "variants": [],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
-            "recipe": "Recipe.hotair-nickel-plate-3",
-            "entity": "Entity.casting-unit-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Fluid.molten-nickel",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-4-nickel",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-3-nickel",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-1-nickel",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.grade-2-nickel",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.nickel-rejects",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.molten-nickel-01",
-                  "entity": "Entity.bof-mk01",
-                  "fuel": "Item.coke",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-4-nickel",
-                  "entity": "Entity.ball-mill-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-3-nickel",
-                  "entity": "Entity.automated-screener-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.nickel-rejects-recrush",
-                  "entity": "Entity.secondary-crusher-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-2-nickel-recrush",
-                  "entity": "Entity.impact-crusher-mk01",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Recipe.grade-1-nickel",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.mining.basic-with-fluid.ore-nickel",
-                  "entity": "Entity.fluid-drill-mk02",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                }
-              ],
-              "modules": null
-            },
-            "variants": [],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
             "recipe": "Recipe.rubber-02",
             "entity": "Entity.heavy-oil-refinery-mk01",
             "fuel": "Power.electricity",
@@ -49772,6 +49088,32 @@
             "shouldFocusOnEmptySearch": false
           },
           {
+            "recipe": "Recipe.drill-head",
+            "entity": "Entity.automated-factory-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.nbfe-alloy",
+            "entity": "Entity.smelter-mk01",
+            "fuel": "Fluid.fuel-oil",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": null,
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
             "recipe": "Recipe.silver-plate-1",
             "entity": "Entity.advanced-foundry-mk01",
             "fuel": "Power.electricity",
@@ -49830,6 +49172,19 @@
                 }
               ],
               "recipes": [
+                {
+                  "recipe": "Recipe.hotair-lead-plate-3",
+                  "entity": "Entity.casting-unit-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
                 {
                   "recipe": "Recipe.soot-to-silver",
                   "entity": "Entity.solid-separator",
@@ -50022,28 +49377,192 @@
             "shouldFocusOnEmptySearch": false
           },
           {
-            "recipe": "Recipe.drill-head",
-            "entity": "Entity.automated-factory-mk01",
+            "recipe": "Recipe.chromium-01",
+            "entity": "Entity.casting-unit-mk01",
             "fuel": "Power.electricity",
             "fixedBuildings": 0,
             "builtBuildings": null,
             "enabled": true,
             "tag": 0,
             "modules": null,
-            "subgroup": null,
-            "variants": [],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
-            "recipe": "Recipe.nbfe-alloy",
-            "entity": "Entity.smelter-mk01",
-            "fuel": "Fluid.fuel-oil",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-3-chromite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.chromite-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-chromite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-chromite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-chromium",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.carbon-dioxide",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.moondrop-co2",
+                  "entity": "Entity.moondrop-greenhouse-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.moondrop-mk02",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.tier-2-chromite-sand",
+                  "entity": "Entity.solid-separator",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.chromite-rejects-processing",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-4-chromite",
+                  "entity": "Entity.hydrocyclone-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-chromite-beneficiation",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-3-chromite",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-1-chromite",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-chromium",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
             "variants": [],
             "shouldFocusOnEmptySearch": false
           },
@@ -50223,6 +49742,639 @@
                     ],
                     "beaconList": []
                   },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.molybdenum-plate",
+            "entity": "Entity.electrolyzer-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": {
+              "beacon": null,
+              "list": [
+                {
+                  "module": "Item.productivity-module",
+                  "fixedCount": 0
+                }
+              ],
+              "beaconList": []
+            },
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.molybdenum-oxide",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.molybdenum-sulfide",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.molybdenum-pulp",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.molybdenum-concentrate",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.molybdenite-pulp",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.molybdenite-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.crushed-molybdenite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molybdenum-oxide",
+                  "entity": "Entity.hpf",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.molybdenum-filtration",
+                  "entity": "Entity.carbon-filter",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.molybdenum-pulp",
+                  "entity": "Entity.thickener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": {
+                    "expanded": true,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.molybdenum-concentrate",
+                  "entity": "Entity.hydrocyclone-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.molybdenite-pulp",
+                  "entity": "Entity.agitator-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.milling-molybdenite",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.crushing-molybdenite",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.productivity-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.molybdenum.molybdenum-ore",
+                  "entity": "Entity.mo-mine",
+                  "fuel": "Item.drill-head",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": {
+                    "beacon": null,
+                    "list": [
+                      {
+                        "module": "Item.speed-module",
+                        "fixedCount": 0
+                      }
+                    ],
+                    "beaconList": []
+                  },
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.stone-waterwell",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.hotair-nickel-plate-3",
+            "entity": "Entity.casting-unit-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.molten-nickel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-4-nickel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-nickel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-nickel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-nickel",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.nickel-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molten-nickel-01",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-4-nickel",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-3-nickel",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.nickel-rejects-recrush",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-nickel-recrush",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-1-nickel",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-nickel",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.molten-iron-06",
+            "entity": "Entity.bof-mk01",
+            "fuel": "Item.coke",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.unslimed-iron",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.iron-pulp-01",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.iron-slime",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Fluid.water@15",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-iron",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-iron",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-iron",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.processed-iron-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.iron-ore",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.hotair-iron-plate-1",
+                  "entity": "Entity.casting-unit-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.unslimed-iron-2",
+                  "entity": "Entity.centrifuge-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.unslimed-iron",
+                  "entity": "Entity.hydroclassifier-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.classify-iron-ore-dust",
+                  "entity": "Entity.hydroclassifier-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.pump.water.water",
+                  "entity": "Entity.offshore-pump",
+                  "fuel": "Power.void",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.iron-ore-dust",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-crush",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-3-iron-processing",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-iron",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-1-iron-crush",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-solid.iron-ore",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
                   "subgroup": null,
                   "variants": [],
                   "shouldFocusOnEmptySearch": false
@@ -50572,6 +50724,440 @@
                   "modules": null,
                   "subgroup": null,
                   "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.hotair-copper-plate-1",
+            "entity": "Entity.casting-unit-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": true,
+              "links": [
+                {
+                  "goods": "Fluid.molten-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-4-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.low-grade-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.copper-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-copper",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molten-copper-04",
+                  "entity": "Entity.bof-mk01",
+                  "fuel": "Item.coke",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.classify-low-grade",
+                  "entity": "Entity.classifier",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-4-copper",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.copper-rejects-recrush",
+                  "entity": "Entity.impact-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-3-copper",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-1-copper-crush",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-copper",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-solid.copper-ore",
+                  "entity": "Entity.electric-mining-drill",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.hotair-tin-plate-3",
+            "entity": "Entity.casting-unit-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Fluid.molten-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.tin-dust",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-4-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.graphite",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-3-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.tin-ore-rejects",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-1-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.grade-2-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.molten-tin-01",
+                  "entity": "Entity.eaf-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [],
+                    "recipes": [
+                      {
+                        "recipe": "Recipe.graphite",
+                        "entity": "Entity.hpf",
+                        "fuel": "Power.electricity",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.ball-grade-4-tin",
+                  "entity": "Entity.ball-mill-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.wash-grade-3-tin",
+                  "entity": "Entity.washer",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": {
+                    "expanded": false,
+                    "links": [
+                      {
+                        "goods": "Fluid.water@15",
+                        "amount": 0,
+                        "algorithm": 0
+                      }
+                    ],
+                    "recipes": [
+                      {
+                        "recipe": "Mechanics.pump.water.water",
+                        "entity": "Entity.stone-waterwell",
+                        "fuel": "Power.void",
+                        "fixedBuildings": 0,
+                        "builtBuildings": null,
+                        "enabled": true,
+                        "tag": 0,
+                        "modules": null,
+                        "subgroup": null,
+                        "variants": [],
+                        "shouldFocusOnEmptySearch": false
+                      }
+                    ],
+                    "modules": null
+                  },
+                  "variants": [
+                    "Fluid.water@15"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-3-tin",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.tin-ore-rejects",
+                  "entity": "Entity.secondary-crusher-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-2-crush-tin",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Recipe.grade-1-tin",
+                  "entity": "Entity.automated-screener-mk01",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-tin",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ],
+                  "shouldFocusOnEmptySearch": false
+                }
+              ],
+              "modules": null
+            },
+            "variants": [],
+            "shouldFocusOnEmptySearch": false
+          },
+          {
+            "recipe": "Recipe.grade-1-tin",
+            "entity": "Entity.automated-screener-mk01",
+            "fuel": "Power.electricity",
+            "fixedBuildings": 0,
+            "builtBuildings": null,
+            "enabled": true,
+            "tag": 0,
+            "modules": null,
+            "subgroup": {
+              "expanded": false,
+              "links": [
+                {
+                  "goods": "Item.grade-2-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                },
+                {
+                  "goods": "Item.ore-tin",
+                  "amount": 0,
+                  "algorithm": 0
+                }
+              ],
+              "recipes": [
+                {
+                  "recipe": "Recipe.grade-2-crush-tin",
+                  "entity": "Entity.jaw-crusher",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [],
+                  "shouldFocusOnEmptySearch": false
+                },
+                {
+                  "recipe": "Mechanics.mining.basic-with-fluid.ore-tin",
+                  "entity": "Entity.fluid-drill-mk02",
+                  "fuel": "Power.electricity",
+                  "fixedBuildings": 0,
+                  "builtBuildings": null,
+                  "enabled": true,
+                  "tag": 0,
+                  "modules": null,
+                  "subgroup": null,
+                  "variants": [
+                    "Fluid.steam@150"
+                  ],
                   "shouldFocusOnEmptySearch": false
                 }
               ],
@@ -51172,64 +51758,6 @@
             "variants": [
               "Fluid.water@15"
             ],
-            "shouldFocusOnEmptySearch": false
-          },
-          {
-            "recipe": "Recipe.grade-1-tin",
-            "entity": "Entity.automated-screener-mk01",
-            "fuel": "Power.electricity",
-            "fixedBuildings": 0,
-            "builtBuildings": null,
-            "enabled": true,
-            "tag": 0,
-            "modules": null,
-            "subgroup": {
-              "expanded": false,
-              "links": [
-                {
-                  "goods": "Item.grade-2-tin",
-                  "amount": 0,
-                  "algorithm": 0
-                },
-                {
-                  "goods": "Item.ore-tin",
-                  "amount": 0,
-                  "algorithm": 0
-                }
-              ],
-              "recipes": [
-                {
-                  "recipe": "Recipe.grade-2-crush-tin",
-                  "entity": "Entity.jaw-crusher",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [],
-                  "shouldFocusOnEmptySearch": false
-                },
-                {
-                  "recipe": "Mechanics.mining.basic-with-fluid.ore-tin",
-                  "entity": "Entity.fluid-drill-mk02",
-                  "fuel": "Power.electricity",
-                  "fixedBuildings": 0,
-                  "builtBuildings": null,
-                  "enabled": true,
-                  "tag": 0,
-                  "modules": null,
-                  "subgroup": null,
-                  "variants": [
-                    "Fluid.steam@150"
-                  ],
-                  "shouldFocusOnEmptySearch": false
-                }
-              ],
-              "modules": null
-            },
-            "variants": [],
             "shouldFocusOnEmptySearch": false
           }
         ],
